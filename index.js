@@ -229,7 +229,7 @@ async function startakame() {
 	akame.sendMessage(jid, { contacts: { displayName: `${list.length} Kontak`, contacts: list }, ...opts }, { quoted })
     }
     
-    akame.public = true
+    akame.public = false
 
     akame.serializeM = (m) => smsg(akame, m, store)
 
