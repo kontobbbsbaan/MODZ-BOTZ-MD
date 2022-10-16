@@ -6624,7 +6624,7 @@ Lib : Baileys-md
  • ${prefix}pubg
  • ${prefix}wallhp`
                 let buttons = [{ buttonId: 'owner', buttonText: { displayText: 'Owner 👤' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: 'Rules Bot 📌' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: 'Donasi 👑' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fkontak)
+            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, floc)
             }
             break
             default:
