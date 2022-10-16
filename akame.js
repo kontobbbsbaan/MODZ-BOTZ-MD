@@ -1172,7 +1172,6 @@ All My Friends.`
   ${runtime(process.uptime())}
  Language : Javascript
  Lib : Baileys-md
- Group Bot ; https://chat.whatsapp.com/BXpv3Jd7mO5ERBKPk7XhFI
 
  INFO WAKTU 
  Tanggal Server : ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}
@@ -1215,6 +1214,8 @@ All My Friends.`
                 {title: "  Text Pro Menu ", rowId: `${prefix}textpromenu`, description: `Menampilkan Text Pro Menu`},
                 {title: "  Voice Changer Menu ", rowId: `${prefix}voicemenu`, description: `Menampilkan Voice Changer Menu`},
                 {title: "  Webzone Menu ", rowId: `${prefix}webzonemenu`, description: `Menampilkan Webzone Menu`},
+                title: "  Tebak Menu ", rowId: `tebakmenu`, description: `Menampilkan Tebak menu Menu`},
+                title: "  Tag Menu ", rowId: `tagmenu`, description: `Menampilkan Tag Menu`},
                 {title: "  Wallpaper Menu ", rowId: `${prefix}wallpapermenu`, description: `Menampilkan Wallpaper Menu`}
                 ]
                 },
@@ -2049,7 +2050,7 @@ All My Friends.`
                 if (!isBotAdmins) throw mess.botAdmin
                 let teks = `*👥 Tag All By Admin*
  
- 🗞️ *Pesan : ${q ? q : 'https://chat.whatsapp.com/BXpv3Jd7mO5ERBKPk7XhFI'}*\n\n`
+ 🗞️ *Pesan : ${q ? q : '' *\n\n`
                 for (let mem of participants) {
                     teks += `⭔ @${mem.id.split('@')[0]}\n`
                 }
@@ -4931,7 +4932,6 @@ Lihat list Pesan Dengan • ${prefix}listmsg`)
                 txtping += `*⏰ Runtime :* ${runtime(process.uptime())}\n`
                 txtping += `*💻 RAM Server :* ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}\n\n`
                 txtping += `*⍢⃝🤝 C O N N E C T  W I T H  M E*\n\n`
-                txtping += `*🎗️ Group Bot :* https://chat.whatsapp.com/BXpv3Jd7mO5ERBKPk7XhFI\n`
                 txtping += `*🎗️ WhatsApp :* wa.me/${global.owner}\n`
                     .trim()
                 let buttons = [{ buttonId: 'command', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖All Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
@@ -6167,7 +6167,7 @@ Premium : ${isPremium ? '✅' : `❌`}
 Limit : ${isPremium ? 'Infinity' : `${db.data.users[m.sender].limit}`}
 Runtime : ${runtime(process.uptime())}
 Lib : Baileys-md
-Groub Bot : https://chat.whatsapp.com/BXpv3Jd7mO5ERBKPk7XhFI
+
 
  ANONYMOUS CHAT
  • ${prefix}anonymous
@@ -6623,7 +6623,7 @@ Groub Bot : https://chat.whatsapp.com/BXpv3Jd7mO5ERBKPk7XhFI
  • ${prefix}pubg
  • ${prefix}wallhp`
                 let buttons = [{ buttonId: 'owner', buttonText: { displayText: 'Owner 👤' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: 'Rules Bot 📌' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: 'Donasi 👑' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, floc)
+            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fvn)
             }
             break
             default:
