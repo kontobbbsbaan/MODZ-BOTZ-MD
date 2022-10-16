@@ -24,33 +24,33 @@ global.APIKeys = {
 
 //—————「 Set Nama Bot & Own 」—————//
 //terserah mau ubah atau nggak
-global.namabot = 'Akame'
-global.namaowner = 'GuaAbuzz'
+global.namabot = 'MODZ BOTZ'
+global.namaowner = 'KIAN'
 
 //—————「 Setting Owner 」—————//
 //terserah mau ubah atau nggak
-global.owner = ['6289636827082']
-global.premium = ['6289636827082','6282171978174']
+global.owner = ['6283845409710']
+global.premium = ['6283845409710','6283845409710']
 
 //—————「 Setting Nomor Donasi 」—————//
 //ubah aja kalau ada yg gapunya kasih tanda -
-global.telkomsel = ['6282171978174']
+global.telkomsel = ['-']
 global.xl = ['-']
-global.indosat = ['-']
-global.tri = ['6289636827082']
+global.indosat = ['+62 838-4540-9710']
+global.tri = ['-']
 global.smartfren = ['-']
-global.gopay = ['6289636827082']
-global.dana = ['6289636827082']
+global.gopay = ['-']
+global.dana = ['-']
 global.ovo = ['-']
-global.saweria = ['https://saweria.co/GuaAbuzz']
+global.saweria = ['https://saweria.co/Kianganz1']
 
 //—————「 Set Kebutuhan Button 」—————//
 //ubah aja kalau ada yang gapunya gsh di hps anggap aja credits :)
-global.github = 'https://github.com/Abuzzpoet'
+global.github = 'https://chat.whatsapp.com/HhuZJjEohKrIaclEQ0V3eh'
 
 //—————「 Set Wm 」—————//
 //terserah mau ubah atau nggak
-global.packname = 'GuaAbuzz'
+global.packname = '🔧'
 global.author = 'WhatsApp Bot'
 
 //—————「 Set Nama Session 」—————//
@@ -68,7 +68,7 @@ global.sp = '⭔'
 //—————「 Set Message 」—————//
 //terserah mau ubah apa nggak
 global.mess = {
-    success: '🤗Done, Oke Desu~',
+    success: 'Done',
     admin: 'Perintah Ini Hanya Bisa Digunakan Oleh Admin !',
     botAdmin: 'Perintah Ini Hanya Bisa Digunakan Ketika Bot Menjadi Admin !',
     owner: 'Perintah Ini Hanya Bisa Digunakan Oleh Owner !',
