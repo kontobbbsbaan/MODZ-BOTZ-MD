@@ -2049,8 +2049,7 @@ All My Friends.`
                 if (!isAdmins && !isGroupOwner && !isCreator) throw mess.admin
                 if (!isBotAdmins) throw mess.botAdmin
                 let teks = `*👥 Tag All By Admin*
- 
- 🗞️ *Pesan : ${q ? q : '' *\n\n`
+ 💨Pesan : ${q ? q : 'Test'\n\n
                 for (let mem of participants) {
                     teks += `⭔ @${mem.id.split('@')[0]}\n`
                 }
@@ -6623,7 +6622,7 @@ Lib : Baileys-md
  • ${prefix}pubg
  • ${prefix}wallhp`
                 let buttons = [{ buttonId: 'owner', buttonText: { displayText: 'Owner 👤' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: 'Rules Bot 📌' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: 'Donasi 👑' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fvn)
+            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, floc)
             }
             break
             default:
