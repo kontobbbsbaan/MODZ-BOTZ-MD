@@ -2049,7 +2049,8 @@ All My Friends.`
                 if (!isAdmins && !isGroupOwner && !isCreator) throw mess.admin
                 if (!isBotAdmins) throw mess.botAdmin
                 let teks = `*👥 Tag All By Admin*
- 💨Pesan : ${q ? q : 'Test'\n\n
+ 
+ 🗞️ *Pesan : ${q ? q : 'kosong'}*\n\n`
                 for (let mem of participants) {
                     teks += `⭔ @${mem.id.split('@')[0]}\n`
                 }
