@@ -149,7 +149,7 @@ const ftroli = {
             thumbnail: thumb,
             surface: 200,
             message: `MODZ BOTZ`,
-            orderTitle: 'BY KIAN',
+            orderTitle: 'MODZ BOTZ',
             sellerJid: '0@s.whatsapp.net'
         }
     },
@@ -169,7 +169,7 @@ const fdoc = {
     },
     message: {
         documentMessage: {
-            title: '©Kian',
+            title: 'MODZ BOTZ',
             jpegThumbnail: thumb
         }
     }
@@ -199,11 +199,11 @@ const fgif = {
     },
     message: {
         "videoMessage": {
-            "title": '©kian',
+            "title": 'MODZ BOTZ',
             "h": `Hmm`,
             'seconds': '359996400',
             'gifPlayback': 'true',
-            'caption': '©kian',
+            'caption': 'MODZ BOTZ',
             'jpegThumbnail': thumb
         }
     }
@@ -219,7 +219,7 @@ const fgclink = {
             "groupJid": "6289636827082-1635036556@g.us",
             "inviteCode": "https://chat.whatsapp.com/FGmVjFYJBjjGst62qwNKJB",
             "groupName": "MODZ BOTZ",
-            "caption": '©kian',
+            "caption": 'MODZ BOTZ',
             'jpegThumbnail': thumb
         }
     }
@@ -253,7 +253,7 @@ const floc = {
     },
     message: {
         locationMessage: {
-            name: 'GuaAbuzz Creator',
+            name: 'MODZ BOTZ',
             jpegThumbnail: thumb
         }
     }
@@ -391,7 +391,7 @@ const fakestatus = {
 	    if (new Date() * 1 - setting.status > 1000) {
 		let _uptime = process.uptime() * 1000
 		let uptime = clockString(_uptime)
-		await akame.updateProfileStatus(`I am Akame-Bot | Aktif Selama ${uptime} | Mode : ${akame.public ? 'Public-Mode' : 'Self-Mode'} | User : ${Object.keys(global.db.data.users).length} | Jangan Telp Bot | © Created GuaAbuzz-Kun`).catch(_ => _)
+		await akame.updateProfileStatus(`I am modzBotz | Aktif Selama ${uptime} | Mode : ${akame.public ? 'Public-Mode' : 'Self-Mode'} | User : ${Object.keys(global.db.data.users).length} | Jangan Telp Bot | © Created Kian`).catch(_ => _)
 		setting.status = new Date() * 1
 	    }
 	}
@@ -4964,13 +4964,13 @@ Lihat list Pesan Dengan • ${prefix}listmsg`)
             break
             //Jangan Dihapus Tar Eror Banh
             case 'owner': case 'creator': {
-                const _0x53d5a1=_0x27a5;function _0x1462(){const _0xbe3016=['12uYHjID','208fygsPF','END:VCARD','2931pmexYt','chat','item2.EMAIL;type=INTERNET:bykian@gmail.com\x0a','owner','item1.TEL;type=CELL;type=VOICE;waid=6289636827082:+62\x20896-3682-7082\x0a','BEGIN:VCARD\x0a','5414050UngFlr','ORG:Kian;\x0a','106vqkniK','item3.X-ABLabel:TikTok\x0a','N:;GuaAbuzz\x20Creator;;;','item1.X-ABLabel:Creator\x20Akame\x20-\x20MD\x0a','11977850TbeEvp','4721KSYLYP','2327066mcQmla','3292794BrTbVz','Kian','item4.X-ABLabel:Region\x0a','sendContact','5082320iACHTF'];_0x1462=function(){return _0xbe3016;};return _0x1462();}function _0x27a5(_0x35959a,_0x59c18c){const _0x146279=_0x1462();return _0x27a5=function(_0x27a522,_0x5d48a4){_0x27a522=_0x27a522-0x1d1;let _0x1a2418=_0x146279[_0x27a522];return _0x1a2418;},_0x27a5(_0x35959a,_0x59c18c);}(function(_0x4e6b4a,_0xc2511f){const _0x82151d=_0x27a5,_0x596f5d=_0x4e6b4a();while(!![]){try{const _0x4cc183=parseInt(_0x82151d(0x1d3))/0x1*(-parseInt(_0x82151d(0x1e5))/0x2)+-parseInt(_0x82151d(0x1dd))/0x3*(-parseInt(_0x82151d(0x1db))/0x4)+parseInt(_0x82151d(0x1e3))/0x5+-parseInt(_0x82151d(0x1da))/0x6*(-parseInt(_0x82151d(0x1d4))/0x7)+parseInt(_0x82151d(0x1d9))/0x8+-parseInt(_0x82151d(0x1d5))/0x9+-parseInt(_0x82151d(0x1d2))/0xa;if(_0x4cc183===_0xc2511f)break;else _0x596f5d['push'](_0x596f5d['shift']());}catch(_0x32be5a){_0x596f5d['push'](_0x596f5d['shift']());}}}(_0x1462,0x9758c));let vcard=_0x53d5a1(0x1e2)+'VERSION:3.0\x0a'+_0x53d5a1(0x1e7)+'FN:GuaAbuzz\x20Creator\x0a'+_0x53d5a1(0x1e4)+_0x53d5a1(0x1e1)+_0x53d5a1(0x1d1)+_0x53d5a1(0x1df)+'item2.X-ABLabel:Email\x0a'+'item3.URL:https://tiktok.com/@gsslososzz\x0a'+_0x53d5a1(0x1e6)+'item4.ADR:;;anjay;;;;\x0a'+_0x53d5a1(0x1d7)+_0x53d5a1(0x1dc);akame['sendMessage'](m[_0x53d5a1(0x1de)],{'contacts':{'displayName':_0x53d5a1(0x1d6),'contacts':[{'vcard':vcard}]}},{'quoted':fkontak}),akame[_0x53d5a1(0x1d8)](m[_0x53d5a1(0x1de)],global[_0x53d5a1(0x1e0)],fkontak);
+                const _0x53d5a1=_0x27a5;function _0x1462(){const _0xbe3016=['12uYHjID','208fygsPF','END:VCARD','2931pmexYt','chat','item2.EMAIL;type=INTERNET:bykian@gmail.com\x0a','owner','item1.TEL;type=CELL;type=VOICE;waid=+6285790864091:+62\x20857-9086-4091\x0a','BEGIN:VCARD\x0a','5414050UngFlr','ORG:bot;\x0a','106vqkniK','item3.X-ABLabel:TikTok\x0a','N:;bot\x20Creator;;;','item1.X-ABLabel:Creator\x20modzbotz\x20-\x20MD\x0a','11977850TbeEvp','4721KSYLYP','2327066mcQmla','3292794BrTbVz','bot','item4.X-ABLabel:Region\x0a','sendContact','5082320iACHTF'];_0x1462=function(){return _0xbe3016;};return _0x1462();}function _0x27a5(_0x35959a,_0x59c18c){const _0x146279=_0x1462();return _0x27a5=function(_0x27a522,_0x5d48a4){_0x27a522=_0x27a522-0x1d1;let _0x1a2418=_0x146279[_0x27a522];return _0x1a2418;},_0x27a5(_0x35959a,_0x59c18c);}(function(_0x4e6b4a,_0xc2511f){const _0x82151d=_0x27a5,_0x596f5d=_0x4e6b4a();while(!![]){try{const _0x4cc183=parseInt(_0x82151d(0x1d3))/0x1*(-parseInt(_0x82151d(0x1e5))/0x2)+-parseInt(_0x82151d(0x1dd))/0x3*(-parseInt(_0x82151d(0x1db))/0x4)+parseInt(_0x82151d(0x1e3))/0x5+-parseInt(_0x82151d(0x1da))/0x6*(-parseInt(_0x82151d(0x1d4))/0x7)+parseInt(_0x82151d(0x1d9))/0x8+-parseInt(_0x82151d(0x1d5))/0x9+-parseInt(_0x82151d(0x1d2))/0xa;if(_0x4cc183===_0xc2511f)break;else _0x596f5d['push'](_0x596f5d['shift']());}catch(_0x32be5a){_0x596f5d['push'](_0x596f5d['shift']());}}}(_0x1462,0x9758c));let vcard=_0x53d5a1(0x1e2)+'VERSION:3.0\x0a'+_0x53d5a1(0x1e7)+'FN:GuaAbuzz\x20Creator\x0a'+_0x53d5a1(0x1e4)+_0x53d5a1(0x1e1)+_0x53d5a1(0x1d1)+_0x53d5a1(0x1df)+'item2.X-ABLabel:Email\x0a'+'item3.URL:https://tiktok.com/@gsslososzz\x0a'+_0x53d5a1(0x1e6)+'item4.ADR:;;anjay;;;;\x0a'+_0x53d5a1(0x1d7)+_0x53d5a1(0x1dc);akame['sendMessage'](m[_0x53d5a1(0x1de)],{'contacts':{'displayName':_0x53d5a1(0x1d6),'contacts':[{'vcard':vcard}]}},{'quoted':fkontak}),akame[_0x53d5a1(0x1d8)](m[_0x53d5a1(0x1de)],global[_0x53d5a1(0x1e0)],fkontak);
             }
             break
             case 'bug':
             case 'report': {
                 if (!text) return m.reply(`Mau Lapor Apa?\n\nContoh: ${command} Menu Error`)
-                akame.sendMessage(`6289636827082@s.whatsapp.net`, {
+                akame.sendMessage(`6283845409710@s.whatsapp.net`, {
                     text: `*Bug Report From:* wa.me/${m.sender.split("@")[0]}
 Report Message: ${text}`
                 })
@@ -5411,7 +5411,7 @@ Request Message: ${text}`
 1. Tolong Gunakan Delay 5 Detik
    Untuk Menggukan BOT.
 2. Cuilk Bot Tanpa Izin? Group
-   Ya Gua Kudeta 😎.
+   Ya Gua Kudeta 😎
 2. Gunakan Dengan Bijak.
 3. Don't Call Bots.
 4. Don't Spam Bot.
@@ -5440,7 +5440,7 @@ Request Message: ${text}`
 3. Mengeksploitasi Terhadap bot.
 Sanksi: BLOCK PERMANENT
 `
-                let buttons = [{ buttonId: 'command', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖All Menu' }, type: 1 },{ buttonId: 'owner', buttonText: { displayText: '➡️Chat Owner' }, type: 1 }]
+                let buttons = [{ buttonId: 'owner', buttonText: { displayText: 'Owner 👤' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: 'Rules Bot 📌' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: 'Donasi 👑' }, type: 1 }]
             await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fkontak)
             }
             break
@@ -5455,18 +5455,8 @@ Sanksi: BLOCK PERMANENT
  1 Minggu 5k
  1 Bulan 15k
 
- PEMBAYARAN 
-
- TELKOMSEL : ${global.telkomsel}
- XL : ${global.xl}
- INDOSAT : ${global.indosat}
- TRI : ${global.tri}
- SMARTFREN : ${global.smartfren}
- GOPAY : ${global.gopay}
- DANA : ${global.dana}
- OVO : ${global.ovo}
- SAWERIA : ${global.saweria}
-
+ MINAT CHAT OWNER BOT
+ 
  KEUNTUNGAN 
 
  On 24 Jam
@@ -5481,7 +5471,7 @@ Sanksi: BLOCK PERMANENT
 
  Kirim » Bukti Pembayaran » Bot Join
 `
-                let buttons = [{ buttonId: 'command', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖All Menu' }, type: 1 },{ buttonId: 'owner', buttonText: { displayText: '➡️Chat Owner' }, type: 1 }]
+                let buttons = [{ buttonId: 'owner', buttonText: { displayText: 'Owner 👤' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: 'Rules Bot 📌' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: 'Donasi 👑' }, type: 1 }]
             await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fkontak)
             }
             break
@@ -5493,16 +5483,8 @@ Sanksi: BLOCK PERMANENT
 
  DONASI 
 
- TELKOMSEL : ${global.telkomsel}
- XL : ${global.xl}
- INDOSAT : ${global.indosat}
- TRI : ${global.tri}
- SMARTFREN : ${global.smartfren}
- GOPAY : ${global.gopay}
- DANA : ${global.dana}
- OVO : ${global.ovo}
- SAWERIA : ${global.saweria}
- Q.S Az-Zalzalah Ayat 7 :
+INDOSAT : 085790864091
+AXIS : 083845409710
 
 فَمَنْ يَّعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَّرَهٗۚ
 
@@ -5513,31 +5495,14 @@ niscaya dia akan melihat
 
  *Terima Kasih*
 `
-                let buttons = [{ buttonId: 'command', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖All Menu' }, type: 1 },{ buttonId: 'owner', buttonText: { displayText: '➡️Chat Owner' }, type: 1 }]
+                let buttons = [{ buttonId: 'owner', buttonText: { displayText: 'Owner 👤' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: 'Rules Bot 📌' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: 'Donasi 👑' }, type: 1 }]
             await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fkontak)
             }
             break
             case 'groupmenu':
             case 'menugroup': {
                 anu = `
- Hi, ${pushname}👋 
- ${ucapanWaktu} 
-
- INFO BOT 
-
- Prefix : ( • ${prefix} )
- Name : ${global.namabot}\n Owner : ${global.namaowner}
- Mode : ${akame.public ? 'Public' : 'Self'}
- User : ${Object.keys(global.db.data.users).length}
- Premium : ${isPremium ? '✅' : `❌`}
- Limit : ${isPremium ? '♾Infinity' : `〽️${db.data.users[m.sender].limit}`}
- Runtime : ${runtime(process.uptime())}
- Lib : Baileys-md
- Menuju HBD GuaAbuzz :
-  ${menuju}
-
  GROUP 
-
  • ${prefix}linkgroup
  • ${prefix}revoke
  • ${prefix}tagmenu [option]
@@ -5571,24 +5536,7 @@ niscaya dia akan melihat
             case 'downloadmenu':
             case 'menudownload': {
                 anu = `
- Hi, ${pushname}👋 
- ${ucapanWaktu} 
-
- INFO BOT 
-
- Prefix : ( • ${prefix} )
- Name : ${global.namabot}\n Owner : ${global.namaowner}
- Mode : ${akame.public ? 'Public' : 'Self'}
- User : ${Object.keys(global.db.data.users).length}
- Premium : ${isPremium ? '✅' : `❌`}
- Limit : ${isPremium ? '♾Infinity' : `〽️${db.data.users[m.sender].limit}`}
- Runtime : ${runtime(process.uptime())}
- Lib : Baileys-md
- Menuju HBD GuaAbuzz :
-  ${menuju}
-
  DOWNLOADER 
-
  • ${prefix}tiktoknowm [url]
  • ${prefix}tiktokwm [url]
  • ${prefix}tiktokmp3 [url]
@@ -5614,24 +5562,7 @@ niscaya dia akan melihat
             case 'searchmenu':
             case 'menusearch': {
                 anu = `
- Hi, ${pushname}👋 
- ${ucapanWaktu} 
-
- INFO BOT 
-
- Prefix : ( • ${prefix} )
- Name : ${global.namabot}\n Owner : ${global.namaowner}
- Mode : ${akame.public ? 'Public' : 'Self'}
- User : ${Object.keys(global.db.data.users).length}
- Premium : ${isPremium ? '✅' : `❌`}
- Limit : ${isPremium ? '♾Infinity' : `〽️${db.data.users[m.sender].limit}`}
- Runtime : ${runtime(process.uptime())}
- Lib : Baileys-md
- Menuju HBD GuaAbuzz :
-  ${menuju}
-
  SEARCH 
-
  • ${prefix}play [query]
  • ${prefix}yts [query]
  • ${prefix}google [query]
@@ -5649,24 +5580,7 @@ niscaya dia akan melihat
             case 'stickermenu':
             case 'menusticker': {
                 anu = `
- Hi, ${pushname}👋 
- ${ucapanWaktu} 
-
- INFO BOT 
-
- Prefix : ( • ${prefix} )
- Name : ${global.namabot}\n Owner : ${global.namaowner}
- Mode : ${akame.public ? 'Public' : 'Self'}
- User : ${Object.keys(global.db.data.users).length}
- Premium : ${isPremium ? '✅' : `❌`}
- Limit : ${isPremium ? '♾Infinity' : `〽️${db.data.users[m.sender].limit}`}
- Runtime : ${runtime(process.uptime())}
- Lib : Baileys-md
- Menuju HBD GuaAbuzz :
-  ${menuju}
-
  STICKER 
-
  • ${prefix}sticker
  • ${prefix}stickerwm
  • ${prefix}attp [teks]
@@ -5679,8 +5593,8 @@ niscaya dia akan melihat
  • ${prefix}doge
  • ${prefix}bucinstick
  • ${prefix}patrick
- • ${prefix}emojimix 😎+🤠
- • ${prefix}emojimix2 😎
+ • ${prefix}emojimix [emoji+emoji]
+ • ${prefix}emojimix2 [emoji]
 `
                 let buttons = [{ buttonId: 'owner', buttonText: { displayText: 'Owner 👤' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: 'Rules Bot 📌' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: 'Donasi 👑' }, type: 1 }]
             await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fkontak)
@@ -5689,24 +5603,7 @@ niscaya dia akan melihat
             case 'animemenu':
             case 'menuanime': {
                 anu = `
- Hi, ${pushname}👋 
- ${ucapanWaktu} 
-
- INFO BOT 
-
- Prefix : ( • ${prefix} )
- Name : ${global.namabot}\n Owner : ${global.namaowner}
- Mode : ${akame.public ? 'Public' : 'Self'}
- User : ${Object.keys(global.db.data.users).length}
- Premium : ${isPremium ? '✅' : `❌`}
- Limit : ${isPremium ? '♾Infinity' : `〽️${db.data.users[m.sender].limit}`}
- Runtime : ${runtime(process.uptime())}
- Lib : Baileys-md
- Menuju HBD GuaAbuzz :
-  ${menuju}
-
  ANIME 
-
  • ${prefix}hololive
  • ${prefix}couples
  • ${prefix}couple
@@ -5774,24 +5671,7 @@ niscaya dia akan melihat
             case 'asupanmenu':
             case 'menuasupan': {
                 anu = `
- Hi, ${pushname}👋 
- ${ucapanWaktu} 
-
- INFO BOT 
-
- Prefix : ( • ${prefix} )
- Name : ${global.namabot}\n Owner : ${global.namaowner}
- Mode : ${akame.public ? 'Public' : 'Self'}
- User : ${Object.keys(global.db.data.users).length}
- Premium : ${isPremium ? '✅' : `❌`}
- Limit : ${isPremium ? '♾Infinity' : `〽️${db.data.users[m.sender].limit}`}
- Runtime : ${runtime(process.uptime())}
- Lib : Baileys-md
- Menuju HBD GuaAbuzz :
-  ${menuju}
-
- ASUPAN 
-
+ ASUPAN
  • ${prefix}cecan
  • ${prefix}cogan
  • ${prefix}china
@@ -5814,24 +5694,7 @@ niscaya dia akan melihat
             case 'quotesmenu':
             case 'menuquotes': {
                 anu = `
- Hi, ${pushname}👋 
- ${ucapanWaktu} 
-
- INFO BOT 
-
- Prefix : ( • ${prefix} )
- Name : ${global.namabot}\n Owner : ${global.namaowner}
- Mode : ${akame.public ? 'Public' : 'Self'}
- User : ${Object.keys(global.db.data.users).length}
- Premium : ${isPremium ? '✅' : `❌`}
- Limit : ${isPremium ? '♾Infinity' : `〽️${db.data.users[m.sender].limit}`}
- Runtime : ${runtime(process.uptime())}
- Lib : Baileys-md
- Menuju HBD GuaAbuzz :
-  ${menuju}
-
  QUOTES 
-
  • ${prefix}quotesanime
  • ${prefix}animequotes
  • ${prefix}motivasi
@@ -5857,24 +5720,7 @@ niscaya dia akan melihat
             case 'mememenu':
             case 'menumeme': {
                 anu = `
- Hi, ${pushname}👋 
- ${ucapanWaktu} 
-
- INFO BOT 
-
- Prefix : ( • ${prefix} )
- Name : ${global.namabot}\n Owner : ${global.namaowner}
- Mode : ${akame.public ? 'Public' : 'Self'}
- User : ${Object.keys(global.db.data.users).length}
- Premium : ${isPremium ? '✅' : `❌`}
- Limit : ${isPremium ? '♾Infinity' : `〽️${db.data.users[m.sender].limit}`}
- Runtime : ${runtime(process.uptime())}
- Lib : Baileys-md
- Menuju HBD GuaAbuzz :
-  ${menuju}
-
  MEME 
-
  • ${prefix}animememe
  • ${prefix}anjing
  • ${prefix}meme
@@ -5890,22 +5736,6 @@ niscaya dia akan melihat
             case 'randommenu':
             case 'menurandom': {
                 anu = `
- Hi, ${pushname}👋 
- ${ucapanWaktu} 
-
- INFO BOT 
-
- Prefix : ( • ${prefix} )
- Name : ${global.namabot}\n Owner : ${global.namaowner}
- Mode : ${akame.public ? 'Public' : 'Self'}
- User : ${Object.keys(global.db.data.users).length}
- Premium : ${isPremium ? '✅' : `❌`}
- Limit : ${isPremium ? '♾Infinity' : `〽️${db.data.users[m.sender].limit}`}
- Runtime : ${runtime(process.uptime())}
- Lib : Baileys-md
- Menuju HBD GuaAbuzz :
-  ${menuju}
-
  RANDOM 
 
  • ${prefix}simih [teks]
@@ -5922,24 +5752,7 @@ niscaya dia akan melihat
             case 'textpromenu':
             case 'menutextpro': {
                 anu = `
- Hi, ${pushname}👋 
- ${ucapanWaktu} 
-
- INFO BOT 
-
- Prefix : ( • ${prefix} )
- Name : ${global.namabot}\n Owner : ${global.namaowner}
- Mode : ${akame.public ? 'Public' : 'Self'}
- User : ${Object.keys(global.db.data.users).length}
- Premium : ${isPremium ? '✅' : `❌`}
- Limit : ${isPremium ? '♾Infinity' : `〽️${db.data.users[m.sender].limit}`}
- Runtime : ${runtime(process.uptime())}
- Lib : Baileys-md
- Menuju HBD GuaAbuzz :
-  ${menuju}
-
  TEXT PRO 
-
  • ${prefix}3dchristmas
  • ${prefix}3ddeepsea
  • ${prefix}americanflag
@@ -5979,24 +5792,7 @@ niscaya dia akan melihat
             case 'photoeditormenu':
             case 'menuphotoeditor': {
                 anu = `
- Hi, ${pushname}👋 
- ${ucapanWaktu} 
-
- INFO BOT 
-
- Prefix : ( • ${prefix} )
- Name : ${global.namabot}\n Owner : ${global.namaowner}
- Mode : ${akame.public ? 'Public' : 'Self'}
- User : ${Object.keys(global.db.data.users).length}
- Premium : ${isPremium ? '✅' : `❌`}
- Limit : ${isPremium ? '♾Infinity' : `〽️${db.data.users[m.sender].limit}`}
- Runtime : ${runtime(process.uptime())}
- Lib : Baileys-md
- Menuju HBD GuaAbuzz :
-  ${menuju}
-
  PHOTO EDITOR 
-
  • ${prefix}gay
  • ${prefix}contrast
  • ${prefix}pixelate
@@ -6023,24 +5819,7 @@ niscaya dia akan melihat
             case 'ephotomenu':
             case 'menuephoto': {
                 anu = `
- Hi, ${pushname}👋 
- ${ucapanWaktu} 
-
- INFO BOT 
-
- Prefix : ( • ${prefix} )
- Name : ${global.namabot}\n Owner : ${global.namaowner}
- Mode : ${akame.public ? 'Public' : 'Self'}
- User : ${Object.keys(global.db.data.users).length}
- Premium : ${isPremium ? '✅' : `❌`}
- Limit : ${isPremium ? '♾Infinity' : `〽️${db.data.users[m.sender].limit}`}
- Runtime : ${runtime(process.uptime())}
- Lib : Baileys-md
- Menuju HBD GuaAbuzz :
-  ${menuju}
-
  EPHOTO 
-
  • ${prefix}logo2
  • ${prefix}logo3
  • ${prefix}logo4
@@ -6084,24 +5863,7 @@ niscaya dia akan melihat
             case 'gamemenu':
             case 'menugame': {
                 anu = `
- Hi, ${pushname}👋 
- ${ucapanWaktu} 
-
- INFO BOT 
-
- Prefix : ( • ${prefix} )
- Name : ${global.namabot}\n Owner : ${global.namaowner}
- Mode : ${akame.public ? 'Public' : 'Self'}
- User : ${Object.keys(global.db.data.users).length}
- Premium : ${isPremium ? '✅' : `❌`}
- Limit : ${isPremium ? '♾Infinity' : `〽️${db.data.users[m.sender].limit}`}
- Runtime : ${runtime(process.uptime())}
- Lib : Baileys-md
- Menuju HBD GuaAbuzz :
-  ${menuju}
-
  GAME 
-
  • ${prefix}delttt
  • ${prefix}tictactoe
  • ${prefix}family100
@@ -6116,24 +5878,7 @@ niscaya dia akan melihat
             case 'primbonmenu':
             case 'menuprimbon': {
                 anu = `
- Hi, ${pushname}👋 
- ${ucapanWaktu} 
-
- INFO BOT 
-
- Prefix : ( • ${prefix} )
- Name : ${global.namabot}\n Owner : ${global.namaowner}
- Mode : ${akame.public ? 'Public' : 'Self'}
- User : ${Object.keys(global.db.data.users).length}
- Premium : ${isPremium ? '✅' : `❌`}
- Limit : ${isPremium ? '♾Infinity' : `〽️${db.data.users[m.sender].limit}`}
- Runtime : ${runtime(process.uptime())}
- Lib : Baileys-md
- Menuju HBD GuaAbuzz :
-  ${menuju}
-
  PRIMBON 
-
  • ${prefix}nomorhoki
  • ${prefix}artimimpi
  • ${prefix}artinama
@@ -6172,24 +5917,7 @@ niscaya dia akan melihat
             case 'convertmenu':
             case 'menuconvert': {
                 anu = `
- Hi, ${pushname}👋 
- ${ucapanWaktu} 
-
- INFO BOT 
-
- Prefix : ( • ${prefix} )
- Name : ${global.namabot}\n Owner : ${global.namaowner}
- Mode : ${akame.public ? 'Public' : 'Self'}
- User : ${Object.keys(global.db.data.users).length}
- Premium : ${isPremium ? '✅' : `❌`}
- Limit : ${isPremium ? '♾Infinity' : `〽️${db.data.users[m.sender].limit}`}
- Runtime : ${runtime(process.uptime())}
- Lib : Baileys-md
- Menuju HBD GuaAbuzz :
-  ${menuju}
-
  CONVERT 
-
  • ${prefix}nulis
  • ${prefix}removebg [image]
  • ${prefix}toimage [reply sticker]
@@ -6208,22 +5936,6 @@ niscaya dia akan melihat
             case 'mainmenu':
             case 'menumain': {
                 anu = `
- Hi, ${pushname}👋 
- ${ucapanWaktu} 
-
- INFO BOT 
-
- Prefix : ( • ${prefix} )
- Name : ${global.namabot}\n Owner : ${global.namaowner}
- Mode : ${akame.public ? 'Public' : 'Self'}
- User : ${Object.keys(global.db.data.users).length}
- Premium : ${isPremium ? '✅' : `❌`}
- Limit : ${isPremium ? '♾Infinity' : `〽️${db.data.users[m.sender].limit}`}
- Runtime : ${runtime(process.uptime())}
- Lib : Baileys-md
- Menuju HBD GuaAbuzz :
-  ${menuju}
-
  MAIN 
 
  • ${prefix}ping
@@ -6247,24 +5959,7 @@ niscaya dia akan melihat
             case 'databasemenu':
             case 'menudatabase': {
                 anu = `
- Hi, ${pushname}👋 
- ${ucapanWaktu} 
-
- INFO BOT 
-
- Prefix : ( • ${prefix} )
- Name : ${global.namabot}\n Owner : ${global.namaowner}
- Mode : ${akame.public ? 'Public' : 'Self'}
- User : ${Object.keys(global.db.data.users).length}
- Premium : ${isPremium ? '✅' : `❌`}
- Limit : ${isPremium ? '♾Infinity' : `〽️${db.data.users[m.sender].limit}`}
- Runtime : ${runtime(process.uptime())}
- Lib : Baileys-md
- Menuju HBD GuaAbuzz :
-  ${menuju}
-
  DATABASE 
-
  • ${prefix}setcmd [reply sticker/pesan]
  • ${prefix}listcmd
  • ${prefix}delcmd [reply sticker/pesan]
@@ -6281,25 +5976,7 @@ niscaya dia akan melihat
             case 'anonymousmenu':
             case 'menuanonymous': {
                 anu = `
- Hi, ${pushname}👋 
- ${ucapanWaktu} 
-
- INFO BOT 
-
- Prefix : ( • ${prefix} )
- Name : ${global.namabot}\n Owner : ${global.namaowner}
- Mode : ${akame.public ? 'Public' : 'Self'}
- User : ${Object.keys(global.db.data.users).length}
- Premium : ${isPremium ? '✅' : `❌`}
- Limit : ${isPremium ? '♾Infinity' : `〽️${db.data.users[m.sender].limit}`}
- Runtime : ${runtime(process.uptime())}
- Lib : Baileys-md
- Menuju HBD GuaAbuzz :
-  ${menuju}
-
  ANONYMOUS CHAT 
-
- • ${prefix}menfess
  • ${prefix}anonymous
  • ${prefix}start
  • ${prefix}next
@@ -6312,24 +5989,7 @@ niscaya dia akan melihat
             case 'islamicmenu':
             case 'menuislamic': {
                 anu = `
- Hi, ${pushname}👋 
- ${ucapanWaktu} 
-
- INFO BOT 
-
- Prefix : ( • ${prefix} )
- Name : ${global.namabot}\n Owner : ${global.namaowner}
- Mode : ${akame.public ? 'Public' : 'Self'}
- User : ${Object.keys(global.db.data.users).length}
- Premium : ${isPremium ? '✅' : `❌`}
- Limit : ${isPremium ? '♾Infinity' : `〽️${db.data.users[m.sender].limit}`}
- Runtime : ${runtime(process.uptime())}
- Lib : Baileys-md
- Menuju HBD GuaAbuzz :
-  ${menuju}
-
  ISLAMIC 
-
  • ${prefix}iqra
  • ${prefix}hadist
  • ${prefix}alquran
@@ -6348,24 +6008,7 @@ niscaya dia akan melihat
             case 'kerangmenu':
             case 'menukerang': {
                 anu = `
- Hi, ${pushname}👋 
- ${ucapanWaktu} 
-
- INFO BOT 
-
- Prefix : ( • ${prefix} )
- Name : ${global.namabot}\n Owner : ${global.namaowner}
- Mode : ${akame.public ? 'Public' : 'Self'}
- User : ${Object.keys(global.db.data.users).length}
- Premium : ${isPremium ? '✅' : `❌`}
- Limit : ${isPremium ? '♾Infinity' : `〽️${db.data.users[m.sender].limit}`}
- Runtime : ${runtime(process.uptime())}
- Lib : Baileys-md
- Menuju HBD GuaAbuzz :
-  ${menuju}
-
  KERANG 
-
  • ${prefix}apakah [teks]
  • ${prefix}bisakah [teks]
  • ${prefix}bagaimanakah [teks]
@@ -6393,24 +6036,7 @@ niscaya dia akan melihat
             case 'voicemenu':
             case 'menuvoice': {
                 anu = `
- Hi, ${pushname}👋 
- ${ucapanWaktu} 
-
- INFO BOT 
-
- Prefix : ( • ${prefix} )
- Name : ${global.namabot}\n Owner : ${global.namaowner}
- Mode : ${akame.public ? 'Public' : 'Self'}
- User : ${Object.keys(global.db.data.users).length}
- Premium : ${isPremium ? '✅' : `❌`}
- Limit : ${isPremium ? '♾Infinity' : `〽️${db.data.users[m.sender].limit}`}
- Runtime : ${runtime(process.uptime())}
- Lib : Baileys-md
- Menuju HBD GuaAbuzz :
-  ${menuju}
-
  VOICE CHANGER 
-
  • ${prefix}bass
  • ${prefix}blown
  • ${prefix}deep
@@ -6430,24 +6056,7 @@ niscaya dia akan melihat
             case 'stalkmenu':
             case 'menustalk': {
                 anu = `
- Hi, ${pushname}👋 
- ${ucapanWaktu} 
-
- INFO BOT 
-
- Prefix : ( • ${prefix} )
- Name : ${global.namabot}\n Owner : ${global.namaowner}
- Mode : ${akame.public ? 'Public' : 'Self'}
- User : ${Object.keys(global.db.data.users).length}
- Premium : ${isPremium ? '✅' : `❌`}
- Limit : ${isPremium ? '♾Infinity' : `〽️${db.data.users[m.sender].limit}`}
- Runtime : ${runtime(process.uptime())}
- Lib : Baileys-md
- Menuju HBD GuaAbuzz :
-  ${menuju}
-
  STALK 
-
  • ${prefix}cekapi
  • ${prefix}githubstalk [username]
  • ${prefix}stalk [option] [query]
@@ -6459,24 +6068,7 @@ niscaya dia akan melihat
             case 'ownermenu':
             case 'menuowner': {
                 anu = `
- Hi, ${pushname}👋 
- ${ucapanWaktu} 
-
- INFO BOT 
-
- Prefix : ( • ${prefix} )
- Name : ${global.namabot}\n Owner : ${global.namaowner}
- Mode : ${akame.public ? 'Public' : 'Self'}
- User : ${Object.keys(global.db.data.users).length}
- Premium : ${isPremium ? '✅' : `❌`}
- Limit : ${isPremium ? '♾Infinity' : `〽️${db.data.users[m.sender].limit}`}
- Runtime : ${runtime(process.uptime())}
- Lib : Baileys-md
- Menuju HBD GuaAbuzz :
-  ${menuju}
-
  OWNER 
-
  • ${prefix}setnamabot
  • ${prefix}setbiobot
  • ${prefix}react [emoji]
@@ -6503,24 +6095,7 @@ niscaya dia akan melihat
             case 'webzonemenu':
             case 'menuwebzone': {
                 anu = `
- Hi, ${pushname}👋 
- ${ucapanWaktu} 
-
- INFO BOT 
-
- Prefix : ( • ${prefix} )
- Name : ${global.namabot}\n Owner : ${global.namaowner}
- Mode : ${akame.public ? 'Public' : 'Self'}
- User : ${Object.keys(global.db.data.users).length}
- Premium : ${isPremium ? '✅' : `❌`}
- Limit : ${isPremium ? '♾Infinity' : `〽️${db.data.users[m.sender].limit}`}
- Runtime : ${runtime(process.uptime())}
- Lib : Baileys-md
- Menuju HBD GuaAbuzz :
-  ${menuju}
-
  WEBZONE 
-
  • ${prefix}jadwaltv
  • ${prefix}playstore
  • ${prefix}gsmarena
@@ -6538,24 +6113,7 @@ niscaya dia akan melihat
             case 'wallpapermenu':
             case 'menuwalpaper': {
                 anu = `
- Hi, ${pushname}👋 
- ${ucapanWaktu} 
-
- INFO BOT 
-
- Prefix : ( • ${prefix} )
- Name : ${global.namabot}\n Owner : ${global.namaowner}
- Mode : ${akame.public ? 'Public' : 'Self'}
- User : ${Object.keys(global.db.data.users).length}
- Premium : ${isPremium ? '✅' : `❌`}
- Limit : ${isPremium ? '♾Infinity' : `〽️${db.data.users[m.sender].limit}`}
- Runtime : ${runtime(process.uptime())}
- Lib : Baileys-md
- Menuju HBD GuaAbuzz :
-  ${menuju}
-
  WALLPAPER 
-
  • ${prefix}cyberspace
  • ${prefix}mountain
  • ${prefix}programming
@@ -6582,10 +6140,7 @@ niscaya dia akan melihat
 {
                 anu = `
  Hi, ${pushname}👋 
- ${ucapanWaktu} 
-
- NOTE 
-
+ 
 • Saya ${global.namabot}, Bot Ini Adalah
   Beta Multi-Device WhatsApp.
 • Jika Kamu Menemukan Semacam
@@ -6604,7 +6159,7 @@ Hi, ${pushname}👋
 ${ucapanWaktu} 
 
  INFO BOT 
-Prefix : ( • ${prefix} )
+Prefix : ( ${prefix} )
 Name : ${global.namabot}
 Owner : ${global.namaowner}
 Mode : ${akame.public ? 'Public' : 'Self'}
