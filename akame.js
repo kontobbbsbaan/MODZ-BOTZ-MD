@@ -1968,14 +1968,6 @@ All My Friends.`
                 await akame.groupParticipantsUpdate(m.chat, [users], 'remove').then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
             }
             break
-            case 'add': {
-                if (!m.isGroup) throw mess.group
-                if (!isAdmins && !isGroupOwner && !isCreator) throw mess.admin
-                if (!isBotAdmins) throw mess.botAdmin
-                let users = m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '') + '@s.whatsapp.net'
-                await akame.groupParticipantsUpdate(m.chat, [users], 'add').then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
-            }
-            break
             case 'culik': {
                 if (args.length < 1) return m.reply('_*Masukin id grupnya tolol*_')
                 let pantek = []
@@ -2042,24 +2034,6 @@ All My Friends.`
             case 'setppgrup':
             case 'setppgc': {
                 var _0x5c8b71=_0x5233;(function(_0x2a8afc,_0xe1257b){var _0x1615dc=_0x5233,_0x47fd49=_0x2a8afc();while(!![]){try{var _0x4dbb94=-parseInt(_0x1615dc(0xe0))/0x1+parseInt(_0x1615dc(0xeb))/0x2+-parseInt(_0x1615dc(0xea))/0x3*(parseInt(_0x1615dc(0xe9))/0x4)+-parseInt(_0x1615dc(0xf1))/0x5+parseInt(_0x1615dc(0xed))/0x6+parseInt(_0x1615dc(0xf3))/0x7+parseInt(_0x1615dc(0xe5))/0x8;if(_0x4dbb94===_0xe1257b)break;else _0x47fd49['push'](_0x47fd49['shift']());}catch(_0xde229c){_0x47fd49['push'](_0x47fd49['shift']());}}}(_0x4d87,0xd68f8));if(!m[_0x5c8b71(0xec)])throw mess[_0x5c8b71(0xee)];if(!isAdmins)throw mess[_0x5c8b71(0xe1)];if(!quoted)throw'Kirim/Reply\x20Image\x20Dengan\x20Caption\x20'+(prefix+command);if(!/image/[_0x5c8b71(0xf2)](mime))throw _0x5c8b71(0xef)+(prefix+command);function _0x4d87(){var _0x52b700=['test','6711698NUujxC','success','w:profile:picture','1489612AANcBS','admin','image','full','ppgc.jpeg','24414096UQLFdY','picture','set','unlinkSync','56796YAluHJ','369btnrkB','414548HxCLnD','isGroup','3502626QvQSwS','group','Kirim/Reply\x20Image\x20Dengan\x20Caption\x20','chat','3433460slhGZl'];_0x4d87=function(){return _0x52b700;};return _0x4d87();}if(/webp/['test'](mime))throw _0x5c8b71(0xef)+(prefix+command);function _0x5233(_0x2dc643,_0x59ab96){var _0x4d877c=_0x4d87();return _0x5233=function(_0x523385,_0x53dece){_0x523385=_0x523385-0xdf;var _0x14f950=_0x4d877c[_0x523385];return _0x14f950;},_0x5233(_0x2dc643,_0x59ab96);}var media=await akame['downloadAndSaveMediaMessage'](quoted,_0x5c8b71(0xe4));if(args[0x0]==_0x5c8b71(0xe3)){var {img}=await generateProfilePicture(media);await akame['query']({'tag':'iq','attrs':{'to':m[_0x5c8b71(0xf0)],'type':_0x5c8b71(0xe7),'xmlns':_0x5c8b71(0xdf)},'content':[{'tag':_0x5c8b71(0xe6),'attrs':{'type':_0x5c8b71(0xe2)},'content':img}]}),fs[_0x5c8b71(0xe8)](media),m['reply'](mess[_0x5c8b71(0xf4)]);}else{var memeg=await akame['updateProfilePicture'](m[_0x5c8b71(0xf0)],{'url':media});fs[_0x5c8b71(0xe8)](media),m['reply'](mess['success']);}
-            }
-            break
-            case 'tagall': {
-                if (!m.isGroup) throw mess.group
-                if (!isAdmins && !isGroupOwner && !isCreator) throw mess.admin
-                if (!isBotAdmins) throw mess.botAdmin
-                let teks = `*👥 Tag All By Admin*
- 
- 🗞️ *Pesan : ${q ? q : 'kosong'}*\n\n`
-                for (let mem of participants) {
-                    teks += `⭔ @${mem.id.split('@')[0]}\n`
-                }
-                akame.sendMessage(m.chat, {
-                    text: teks,
-                    mentions: participants.map(a => a.id)
-                }, {
-                    quoted: ftroli
-                })
             }
             break
             case 'hidetag': {
@@ -5511,10 +5485,8 @@ niscaya dia akan melihat
  • ${prefix}setdesc [text]
  • ${prefix}group [option]
  • ${prefix}editinfo [option]
- • ${prefix}add @user
  • ${prefix}kick @user
  • ${prefix}hidetag [text]
- • ${prefix}tagall [text]
  • ${prefix}totag [reply]
  • ${prefix}promote @user
  • ${prefix}demote @user
@@ -6339,10 +6311,8 @@ Lib : Baileys-md
  • ${prefix}setdesc [text]
  • ${prefix}group [option]
  • ${prefix}editinfo [option]
- • ${prefix}add @user
  • ${prefix}kick @user
  • ${prefix}hidetag [text]
- • ${prefix}tagall [text]
  • ${prefix}totag [reply]
  • ${prefix}promote @user
  • ${prefix}demote @user
