@@ -343,7 +343,7 @@ const fakestatus = {
             if (typeof setting !== 'object') global.db.data.settings[botNumber] = {}
             if (setting) {
                 if (!isNumber(setting.status)) setting.status = 0
-                if (!('autobio' in setting)) setting.autobio = true
+                if (!('autobio' in setting)) setting.autobio = false
                 if (!('templateImage' in setting)) setting.templateImage = true
                 if (!('templateVideo' in setting)) setting.templateVideo = false
                 if (!('templateGif' in setting)) setting.templateGif = false
@@ -351,7 +351,7 @@ const fakestatus = {
                 if (!('templateLocation' in setting)) setting.templateLocation = false
             } else global.db.data.settings[botNumber] = {
                 status: 0,
-                autobio: true,
+                autobio: false,
                 templateImage: true,
                 templateVideo: false,
                 templateGif: false,
@@ -1152,17 +1152,17 @@ All My Friends.`
             case 'menu': {
                let simple = `
 ┌────────┈❖
-│「 Hi, ${pushname}👋 」
-│「 ${ucapanWaktu} 」
+│ Hi, ${pushname}👋 
+│ ${ucapanWaktu} 
 └┬─────────────┈❖
-┌┤「 INFO USER 」
+┌┤ INFO USER 
 │└─────────────┈❖
 │ Name : ${pushname}
 │ Number : ${m.sender.split('@')[0]}
 │ Status : ${isCreator ? 'Owner' : 'User'}
 │ User : ${Object.keys(global.db.data.users).length}
 └┬─────────────┈❖
-┌┤「 INFO BOT 」
+┌┤ INFO BOT 
 │└─────────────┈❖
 │ Prefix : ( ${prefix} )
 │ Name : ${global.namabot}
@@ -1175,8 +1175,12 @@ All My Friends.`
 │  ${runtime(process.uptime())}
 │ Language : Javascript
 │ Lib : Baileys-md
+│ Group Bot :
+│ https://chat.whatsapp.com/CNf3yQ3N5omBMVJy3xpvRt
+│ Group Bot :
+│ https://chat.whatsapp.com/Gyz8wVqxbXv3XfVbB0qYjc
 └┬─────────────┈❖
-┌┤「 INFO TIME 」
+┌┤ INFO TIME 
 │└─────────────┈❖
 │ Tanggal Server : ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}
 │ Waktu Server : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}
@@ -1186,79 +1190,79 @@ All My Friends.`
 └──────────────┈❖`
                 let sections = [
                 {
-                title: "All Menu Bot >_<",
+                title: "All Menu Bot ",
                 rows: [
-                {title: "⌲ 「 All Menu 」", rowId: `${prefix}allmenu`, description: `Menampilkan All Menu`}
+                {title: "  All Menu ", rowId: `${prefix}allmenu`, description: `Menampilkan All Menu`}
                 ]
                 },
                 {
-                title: "List Menu Simpel Bot >_<",
+                title: "List Menu Simpel Bot ",
                 rows: [
-                {title: "⌲ 「 Anonymous Chat Menu 」", rowId: `${prefix}anonymousmenu`, description: `Menampilkan Anonymous Chat Menu`},
-                {title: "⌲ 「 Anime Menu 」", rowId: `${prefix}animemenu`, description: `Menampilkan Anime Menu`},
-                {title: "⌲ 「 Asupan Menu 」", rowId: `${prefix}asupanmenu`, description: `Menampilkan Asupan Menu`},
-                {title: "⌲ 「 Convert Menu 」", rowId: `${prefix}convertmenu`, description: `Menampilkan Convert Menu`},
-                {title: "⌲ 「 Download Menu 」", rowId: `${prefix}downloadmenu`, description: `Menampilkan Download Menu`},
-                {title: "⌲ 「 Database Menu 」", rowId: `${prefix}databasemenu`, description: `Menampilkan Database Menu`},
-                {title: "⌲ 「 Ephoto Menu 」", rowId: `${prefix}ephotomenu`, description: `Menampilkan Ephoto Menu`},
-                {title: "⌲ 「 Group Menu 」", rowId: `${prefix}groupmenu`, description: `Menampilkan Group Menu`},
-                {title: "⌲ 「 Game Menu 」", rowId: `${prefix}gamemenu`, description: `Menampilkan Game Menu`},
-                {title: "⌲ 「 Islamic Menu 」", rowId: `${prefix}islamicmenu`, description: `Menampilkan Islamic Menu`},
-                {title: "⌲ 「 Kerang Menu 」", rowId: `${prefix}kerangmenu`, description: `Menampilkan Kerang Menu`},
-                {title: "⌲ 「 Meme Menu 」", rowId: `${prefix}mememenu`, description: `Menampilkan Meme Menu`},
-                {title: "⌲ 「 Main Menu 」", rowId: `${prefix}mainmenu`, description: `Menampilkan Main Menu`},
-                {title: "⌲ 「 Owner Menu 」", rowId: `${prefix}ownermenu`, description: `Menampilkan Owner Menu`},
-                {title: "⌲ 「 Primbon Menu 」", rowId: `${prefix}primbonmenu`, description: `Menampilkan Primbon Menu`},
-                {title: "⌲ 「 Photo Editor Menu 」", rowId: `${prefix}photoeditormenu`, description: `Menampilkan Photo Editor Menu`},
-                {title: "⌲ 「 Quotes Menu 」", rowId: `${prefix}quotesmenu`, description: `Menampilkan Quotes Menu`},
-                {title: "⌲ 「 Random Menu 」", rowId: `${prefix}randommenu`, description: `Menampilkan Random Menu`},
-                {title: "⌲ 「 Sticker Menu 」", rowId: `${prefix}stickermenu`, description: `Menampilkan Sticker Menu`},
-                {title: "⌲ 「 Search Menu 」", rowId: `${prefix}searchmenu`, description: `Menampilkan Search Menu`},
-                {title: "⌲ 「 Stalk Menu 」", rowId: `${prefix}stalkmenu`, description: `Menampilkan Stalk Menu`},
-                {title: "⌲ 「 Text Pro Menu 」", rowId: `${prefix}textpromenu`, description: `Menampilkan Text Pro Menu`},
-                {title: "⌲ 「 Voice Changer Menu 」", rowId: `${prefix}voicemenu`, description: `Menampilkan Voice Changer Menu`},
-                {title: "⌲ 「 Webzone Menu 」", rowId: `${prefix}webzonemenu`, description: `Menampilkan Webzone Menu`},
-                {title: "⌲ 「 Wallpaper Menu 」", rowId: `${prefix}wallpapermenu`, description: `Menampilkan Wallpaper Menu`}
+                {title: "  Anonymous Chat Menu ", rowId: `${prefix}anonymousmenu`, description: `Menampilkan Anonymous Chat Menu`},
+                {title: "  Anime Menu ", rowId: `${prefix}animemenu`, description: `Menampilkan Anime Menu`},
+                {title: "  Asupan Menu ", rowId: `${prefix}asupanmenu`, description: `Menampilkan Asupan Menu`},
+                {title: "  Convert Menu ", rowId: `${prefix}convertmenu`, description: `Menampilkan Convert Menu`},
+                {title: "  Download Menu ", rowId: `${prefix}downloadmenu`, description: `Menampilkan Download Menu`},
+                {title: "  Database Menu ", rowId: `${prefix}databasemenu`, description: `Menampilkan Database Menu`},
+                {title: "  Ephoto Menu ", rowId: `${prefix}ephotomenu`, description: `Menampilkan Ephoto Menu`},
+                {title: "  Group Menu ", rowId: `${prefix}groupmenu`, description: `Menampilkan Group Menu`},
+                {title: "  Game Menu ", rowId: `${prefix}gamemenu`, description: `Menampilkan Game Menu`},
+                {title: "  Islamic Menu ", rowId: `${prefix}islamicmenu`, description: `Menampilkan Islamic Menu`},
+                {title: "  Kerang Menu ", rowId: `${prefix}kerangmenu`, description: `Menampilkan Kerang Menu`},
+                {title: "  Meme Menu ", rowId: `${prefix}mememenu`, description: `Menampilkan Meme Menu`},
+                {title: "  Main Menu ", rowId: `${prefix}mainmenu`, description: `Menampilkan Main Menu`},
+                {title: "  Owner Menu ", rowId: `${prefix}ownermenu`, description: `Menampilkan Owner Menu`},
+                {title: "  Primbon Menu ", rowId: `${prefix}primbonmenu`, description: `Menampilkan Primbon Menu`},
+                {title: "  Photo Editor Menu ", rowId: `${prefix}photoeditormenu`, description: `Menampilkan Photo Editor Menu`},
+                {title: "  Quotes Menu ", rowId: `${prefix}quotesmenu`, description: `Menampilkan Quotes Menu`},
+                {title: "  Random Menu ", rowId: `${prefix}randommenu`, description: `Menampilkan Random Menu`},
+                {title: "  Sticker Menu ", rowId: `${prefix}stickermenu`, description: `Menampilkan Sticker Menu`},
+                {title: "  Search Menu ", rowId: `${prefix}searchmenu`, description: `Menampilkan Search Menu`},
+                {title: "  Stalk Menu ", rowId: `${prefix}stalkmenu`, description: `Menampilkan Stalk Menu`},
+                {title: "  Text Pro Menu ", rowId: `${prefix}textpromenu`, description: `Menampilkan Text Pro Menu`},
+                {title: "  Voice Changer Menu ", rowId: `${prefix}voicemenu`, description: `Menampilkan Voice Changer Menu`},
+                {title: "  Webzone Menu ", rowId: `${prefix}webzonemenu`, description: `Menampilkan Webzone Menu`},
+                {title: "  Wallpaper Menu ", rowId: `${prefix}wallpapermenu`, description: `Menampilkan Wallpaper Menu`}
                 ]
                 },
                 {
-                title: "Rules Bot >_<",
+                title: "Rules Bot ",
                 rows: [
-                {title: "⌲ 「 Rules Bot 」", rowId: `${prefix}rules`, description: `Klik Untuk Melihat Rules Bot`}
+                {title: "  Rules Bot ", rowId: `${prefix}rules`, description: `Klik Untuk Melihat Rules Bot`}
                 ]
                 },
                 {
-                title: "Open Jasa Sewabot >_<",
+                title: "Open Jasa Sewabot ",
                 rows: [
-                {title: "⌲ 「 Sewa Bot 」", rowId: `${prefix}sewabot`, description: `Klik Untuk Melihat Harga Sewabot`}
+                {title: "  Sewa Bot ", rowId: `${prefix}sewabot`, description: `Klik Untuk Melihat Harga Sewabot`}
                 ]
                 },
                 {
-                title: "Open Donasi >_<",
+                title: "Open Donasi ",
                 rows: [
-                {title: "⌲ 「 Open Donasi 」", rowId: `${prefix}donasi`, description: `Bantu Support Creator Guys`}
+                {title: "  Open Donasi ", rowId: `${prefix}donasi`, description: `Bantu Support Creator Guys`}
                 ]
                 },
                 {
-                title: "Info Tentang Bot? >_<",
+                title: "Info Tentang Bot? ",
                 rows: [
-                {title: "⌲ 「 Info Bot 」", rowId: `${prefix}ping`, description: `Klik Untuk Melihat Info Bot`}
+                {title: "  Info Bot ", rowId: `${prefix}ping`, description: `Klik Untuk Melihat Info Bot`}
                 ]
                 },
                 {
-                title: "Info Tentang Owner? >_<",
+                title: "Info Tentang Owner? ",
                 rows: [
-                {title: "⌲ 「 Chat Owner 」", rowId: `${prefix}owner`, description: `Menampilkan Nomor WhatsApp Owner`}
+                {title: "  Chat Owner ", rowId: `${prefix}owner`, description: `Menampilkan Nomor WhatsApp Owner`}
                 ]
                 },
                 {
-                title: "Thanks To >_<",
+                title: "Thanks To ",
                 rows: [
-                {title: "⌲ 「 Contributor 」", rowId: `${prefix}tqtt`, description: `Menampilkan Nama Teman - Teman Saya Yang Sudah Membantu Merakit Bot Ini !!`}
+                {title: "  Contributor ", rowId: `${prefix}tqtt`, description: `Menampilkan Nama Teman - Teman Saya Yang Sudah Membantu Merakit Bot Ini !!`}
                 ]
                 }
                 ]
-                akame.sendListMsg(m.chat, simple, akame.user.name, `Hello Everyone !`, `Click Here`, sections, floc)
+                akame.sendListMsg(m.chat, simple, akame.user.name, `Hello Everyone !`, `Click Here`, sections, fvideo)
             }
             break
             case 'sc':
@@ -4176,11 +4180,11 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
 				let pesan = q.split('|')[2] ? q.split('|')[2] : ''
 				if (pesan.length < 1) return m.reply(`Harus di isi semua! ex : menfess 62831xxxxxxxx|orang|hallo kamu`)
 				let buttons = [
-                    { buttonId: `Owner`, buttonText: { displayText: ' Chat Owner' }, type: 1 },
+                    { buttonId: `#menu`, buttonText: { displayText: 'Menu' }, type: 1 },
                     { buttonId: `menfesconfirm ${m.sender}`, buttonText: { displayText: ' Terima Menfess' }, type: 1 },
                     { buttonId: `menfess`, buttonText: { displayText: ' Kirim Menfess' }, type: 1 }
                 ]
-			akame.sendMessage(`${nomor}@s.whatsapp.net`, { text:`PESAN RAHASIA\n\nHai kak ada Menfess nih!!\n─────────────\n*Akame-Bot*\n─────────────\n\nDari : _${saking}_ \nPesan : _${pesan}_`, title: 'PESAN RAHASIA DECTETED', footer: 'Ciee ada yang ngirim pesan nih\n© 2022 GuaAbuzz', buttons: buttons, headerType: 5 })
+			akame.sendMessage(`${nomor}@s.whatsapp.net`, { text:`PESAN RAHASIA\n\nHai kak ada Menfess nih!!\n─────────────\n\nDari : _${saking}_ \nPesan : _${pesan}_`, title: 'PESAN RAHASIA DECTETED', footer: 'Ciee ada yang ngirim pesan nih', buttons: buttons, headerType: 5 })
 				m.reply(`Sukses Mengirim Menfess!!`)
 				}
 				break
@@ -5902,7 +5906,7 @@ niscaya dia akan melihat
  • ${prefix}toaudio [reply video]
 
 `
-                let buttons = [{ buttonId: 'owner', buttonText: { displayText: 'Owner 👤' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: 'Rules Bot 📌' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: 'Donasi 👑' }, type: 1 }]
+                let buttons = [{ buttonId: 'owner', buttonText: { displayText: 'Owner 👤' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: 'Rules Bot 📌' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: 'Donasi ??' }, type: 1 }]
             await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fgclink)
             }
             break
@@ -6113,7 +6117,7 @@ niscaya dia akan melihat
                 anu = `
  Hi, ${pushname}👋 
  
- Group Bot : https://chat.whatsapp.com/BXpv3Jd7mO5ERBKPk7XhFI
+
 • Saya ${global.namabot}, Bot Ini Adalah
   Beta Multi-Device WhatsApp.
 • Jika Kamu Menemukan Semacam
@@ -6148,6 +6152,9 @@ Lib : Baileys-md
  • ${prefix}start
  • ${prefix}next
  • ${prefix}keluar
+ • ${prefix}menfes
+ • ${prefix}confes
+ • ${prefix}menfesconfirm
 
  ANIME
  • ${prefix}hololive
