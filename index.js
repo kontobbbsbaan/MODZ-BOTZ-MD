@@ -169,13 +169,13 @@ async function startakame() {
                     ppgroup = 'https://tinyurl.com/yx93l6da'
                 }
 
-                if (anu.action == 'add') {
+                if (anu.action == 'gmb') {
                     akame.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `Welcome @${num.split("@")[0]} To Group ${metadata.subject} 👋\nJANGAN LUPA JOIN GROUP BOT https://chat.whatsapp.com/BXpv3Jd7mO5ERBKPk7XhFI` })
-                } else if (anu.action == 'remove') {
+                } else if (anu.action == 'gmb') {
                     akame.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `Sayonaraa @${num.split("@")[0]} 👋\nJANGAN LUPA JOIN GROUP BOT https://chat.whatsapp.com/BXpv3Jd7mO5ERBKPk7XhFI` })
-                } else if (anu.action == 'promote') {
+                } else if (anu.action == 'gmb') {
                     akame.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `Selamat Ya @${num.split("@")[0]} Atas Kenaikan Jabatannya Di Grup ${metadata.subject} 🎉` })
-                } else if (anu.action == 'demote') {
+                } else if (anu.action == 'gmb') {
                     akame.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `Nice Try @${num.split("@")[0]} Atas Penurunan Jabatannya Di Grup ${metadata.subject} 😔` })
               }
             }
