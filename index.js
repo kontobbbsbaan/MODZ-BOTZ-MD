@@ -84,7 +84,7 @@ async function startakame() {
     store.bind(akame.ev)
     
    // anticall auto block
-    akame.ws.on('CB:call', async (json) => {
+    akame.ws.on('CB:casll', async (json) => {
     const callerId = json.content[0].attrs['call-creator']
     if (json.content[0].tag == 'offer') {
     let pa7rick = await akame.sendContact(callerId, global.owner)
