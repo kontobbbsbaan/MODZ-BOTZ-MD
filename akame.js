@@ -327,15 +327,15 @@ const fakestatus = {
             if (typeof chats !== 'object') global.db.data.chats[m.chat] = {}
             if (chats) {
                 if (!('mute' in chats)) chats.mute = false
-                if (!('antilink' in chats)) chats.antilink = false
-                if (!('antilinkyt' in chats)) chats.antilinkyt = false
-                if (!('antilinktt' in chats)) chats.antilinktt = false
+                if (!('antilink' in chats)) chats.antilink = true
+                if (!('antilinkyt' in chats)) chats.antilinkyt = true
+                if (!('antilinktt' in chats)) chats.antilinktt = true
                 if (!('antivirtex' in chats)) chats.antivirtex = true
             } else global.db.data.chats[m.chat] = {
                 mute: false,
-                antilink: false,
-                antilinkyt: false,
-                antilinktt: false,
+                antilink: true,
+                antilinkyt: true,
+                antilinktt: true,
                 antivirtex: true,
             }
 
@@ -6610,7 +6610,7 @@ Lib : Baileys-md
         	let buttons = [
                     { buttonId: `owner`, buttonText: { displayText: 'Chat Owner' }, type: 1 }
                 ]
-			akame.sendMessage(m.chat, { text:`INVITE DETECT\n\nMau masukin bot ini ke group kamu?`, title: 'LINK GROUP DECTETED', footer: '© 2022 GuaAbuzz', buttons: buttons, headerType: 5 })
+			akame.sendMessage(m.chat, { text:`INVITE DETECT\n\nMau masukin bot ini ke group kamu?`, title: 'LINK GROUP DECTETED', footer: '⌗MODZ BOTZ @2022 ©BY KIAN', buttons: buttons, headerType: 5 })
 		}
                 if (budy.startsWith('=>')) {
                     if (!isCreator) return m.reply(mess.owner)
