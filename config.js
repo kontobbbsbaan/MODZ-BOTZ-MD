@@ -42,7 +42,7 @@ global.smartfren = ['-']
 global.gopay = ['-']
 global.dana = ['-']
 global.ovo = ['-']
-global.saweria = ['https://saweria.co/Kianganz1']
+global.saweria = ['https://saweria.co/Kianganz']
 
 //—————「 Set Kebutuhan Button 」—————//
 //ubah aja kalau ada yang gapunya gsh di hps anggap aja credits :)
@@ -50,8 +50,8 @@ global.github = 'https://chat.whatsapp.com/HhuZJjEohKrIaclEQ0V3eh'
 
 //—————「 Set Wm 」—————//
 //terserah mau ubah atau nggak
-global.packname = '🔧'
-global.author = 'WhatsApp Bot'
+global.packname = '\n'
+global.author = '⌗MODZ BOTZ @2022 ©BY KIAN +62 857-3296-1136'
 
 //—————「 Set Nama Session 」—————//
 //gausah di apa² ini!
@@ -84,7 +84,7 @@ global.mess = {
 //terserah mau ubah atau nggak
 global.limitawal = {
     premium: "Infinity",
-    free: 50,
+    free: 3,
 }
 
 //—————「 Set Image 」—————//
