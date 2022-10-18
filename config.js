@@ -75,7 +75,7 @@ global.mess = {
     group: 'Perintah Ini Hanya Bisa Digunakan Di Group Chat !',
     private: 'Perintah Ini Hanya Bisa Digunakan Di Private Chat !',
     bot: 'Fitur Khusus Pengguna Nomor Bot !',
-    wait: '⏳ Sedang Di Proses !',
+    wait: 'Tunggu Masih Di Proses !',
     endLimit: 'Limit Harian Anda Telah Habis, Limit Akan Direset Setiap Jam 12 !',
     error: 'Fitur Sedang Error !',
 }
@@ -84,7 +84,7 @@ global.mess = {
 //terserah mau ubah atau nggak
 global.limitawal = {
     premium: "Infinity",
-    free: 3,
+    free: 10,
 }
 
 //—————「 Set Image 」—————//
