@@ -169,9 +169,9 @@ async function startakame() {
                     ppgroup = 'https://tinyurl.com/yx93l6da'
                 }
 
-                if (anu.action == 'add') {
+                if (anu.action == 'add∅') {
                     akame.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `Welcome @${num.split("@")[0]} To Group ${metadata.subject} 👋` })
-                } else if (anu.action == 'remove') {
+                } else if (anu.action == 'remove∅') {
                     akame.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `Sayonaraa @${num.split("@")[0]} 👋` })
                 } else if (anu.action == 'promote') {
                     akame.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `Selamat Ya @${num.split("@")[0]} Atas Kenaikan Jabatannya Di Grup ${metadata.subject} 🎉` })
