@@ -2044,6 +2044,7 @@ All My Friends.`
             }
             break
             case 'hidetag': {
+            if (!isCreator) return
                 if (!m.isGroup) throw mess.group
                 if (!isAdmins && !isGroupOwner && !isCreator) throw mess.admin
                 if (!isBotAdmins) throw mess.botAdmin
