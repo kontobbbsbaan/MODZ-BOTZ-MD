@@ -2044,16 +2044,9 @@ All My Friends.`
             }
             break
             case 'hidetag': {
-            if (!isCreator) return
-                if (!m.isGroup) throw mess.group
-                if (!isAdmins && !isGroupOwner && !isCreator) throw mess.admin
-                if (!isBotAdmins) throw mess.botAdmin
-                akame.sendMessage(m.chat, {
-                    text: q ? q : '',
-                    mentions: participants.map(a => a.id)
-                }, {
-                    quoted: ftroli
-                })
+                if (!isCreator) return
+            if (!m.isGroup) throw mess.group
+            akame.sendMessage(m.chat, { text : q ? q : '' , mentions: participants.map(a => a.id)}, { quoted: m })
             }
             break
             case 'totag': {
