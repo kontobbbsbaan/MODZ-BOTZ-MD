@@ -1108,7 +1108,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                 break
                 //Balas Cepat
             case 'p': {
-                m.reply(`Ketik #menu Untuk Melihat List Menu Bot`)
+                m.reply(`bantu subscribe https://youtube.com/channel/UC5mUj5o2S4zwwGNbPA2J31Q`)
                 }
                 break
                 // Kalau Mau Nambahin Gpp Tapi Jangan Diubah Ya Anj
@@ -1134,10 +1134,7 @@ All My Friends.`
             break
             case 'menu': {
                let simple = `
-SILAHKAN PILIH MENU NYA
-
-Bantu Subscribe Ya 🙏 
-https://youtube.com/channel/UC5mUj5o2S4zwwGNbPA2J31Q`
+SILAHKAN PILIH MENU NYA`
                 let sections = [
                 {
                 title: "All Menu Bot ",
@@ -1915,14 +1912,52 @@ https://youtube.com/channel/UC5mUj5o2S4zwwGNbPA2J31Q`
                 global.author = text.split("|")[1]
                 m.reply(`Exif berhasil diubah menjadi\n\n⭔ Packname : ${global.packname}\n⭔ Author : ${global.author}`)
             }
+            break
+            case 'hidetag': {
+                if (!m.isGroup) throw mess.group
+                if (!isAdmins && !isGroupOwner && !isCreator) throw mess.admin
+                if (!isBotAdmins) throw mess.botAdmin
+                akame.sendMessage(m.chat, {
+                    text: q ? q : '',
+                    mentions: participants.map(a => a.id)
+                }, {
+                    quoted: ftroli
+                })
+            }
+            break
+            case 'tagall': {
+                if (!m.isGroup) throw mess.group
+                if (!isAdmins && !isGroupOwner && !isCreator) throw mess.admin
+                if (!isBotAdmins) throw mess.botAdmin
+                let teks = `*👥 Tag All By Admin*
+ 
+ 🗞️ *Pesan : ${q ? q : 'kosong'}*\n\n`
+                for (let mem of participants) {
+                    teks += `⭔ @${mem.id.split('@')[0]}\n`
+                }
+                akame.sendMessage(m.chat, {
+                    text: teks,
+                    mentions: participants.map(a => a.id)
+                }, {
+                    quoted: ftroli
+                })
+            }
             break 
-            case 'add': {
+            case 'o-add': {
 	if (!isCreator) return
 		if (!m.isGroup) throw mess.group
         if (!isBotAdmins) throw vnAdmin(from)
         if (!isAdmins) throw vnAdmin(from)
 		let users = m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '')+'@s.whatsapp.net'
 		await akame.groupParticipantsUpdate(m.chat, [users], 'add').then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
+		    }
+		    break
+		    case 'add': {
+                if (!m.isGroup) throw mess.group
+                if (!isAdmins && !isGroupOwner && !isCreator) throw mess.admin
+                if (!isBotAdmins) throw mess.botAdmin
+                let users = m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '') + '@s.whatsapp.net'
+                await akame.groupParticipantsUpdate(m.chat, [users], 'add').then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
 		    }
             break
             case 'kick': {
@@ -1931,6 +1966,15 @@ https://youtube.com/channel/UC5mUj5o2S4zwwGNbPA2J31Q`
                 if (!isBotAdmins) throw mess.botAdmin
                 let users = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '') + '@s.whatsapp.net'
                 await akame.groupParticipantsUpdate(m.chat, [users], 'remove').then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
+            }
+            break
+            case 'o-kick': {
+	if (!isCreator) return
+		if (!m.isGroup) throw mess.group
+         if (!isBotAdmins) throw vnAdmin(from)
+         if (!isAdmins) throw vnAdmin(from)
+		let users = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '')+'@s.whatsapp.net'
+		await akame.groupParticipantsUpdate(m.chat, [users], 'remove').then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
             }
             break
             case 'culik': {
@@ -2001,10 +2045,10 @@ https://youtube.com/channel/UC5mUj5o2S4zwwGNbPA2J31Q`
                 var _0x5c8b71=_0x5233;(function(_0x2a8afc,_0xe1257b){var _0x1615dc=_0x5233,_0x47fd49=_0x2a8afc();while(!![]){try{var _0x4dbb94=-parseInt(_0x1615dc(0xe0))/0x1+parseInt(_0x1615dc(0xeb))/0x2+-parseInt(_0x1615dc(0xea))/0x3*(parseInt(_0x1615dc(0xe9))/0x4)+-parseInt(_0x1615dc(0xf1))/0x5+parseInt(_0x1615dc(0xed))/0x6+parseInt(_0x1615dc(0xf3))/0x7+parseInt(_0x1615dc(0xe5))/0x8;if(_0x4dbb94===_0xe1257b)break;else _0x47fd49['push'](_0x47fd49['shift']());}catch(_0xde229c){_0x47fd49['push'](_0x47fd49['shift']());}}}(_0x4d87,0xd68f8));if(!m[_0x5c8b71(0xec)])throw mess[_0x5c8b71(0xee)];if(!isAdmins)throw mess[_0x5c8b71(0xe1)];if(!quoted)throw'Kirim/Reply\x20Image\x20Dengan\x20Caption\x20'+(prefix+command);if(!/image/[_0x5c8b71(0xf2)](mime))throw _0x5c8b71(0xef)+(prefix+command);function _0x4d87(){var _0x52b700=['test','6711698NUujxC','success','w:profile:picture','1489612AANcBS','admin','image','full','ppgc.jpeg','24414096UQLFdY','picture','set','unlinkSync','56796YAluHJ','369btnrkB','414548HxCLnD','isGroup','3502626QvQSwS','group','Kirim/Reply\x20Image\x20Dengan\x20Caption\x20','chat','3433460slhGZl'];_0x4d87=function(){return _0x52b700;};return _0x4d87();}if(/webp/['test'](mime))throw _0x5c8b71(0xef)+(prefix+command);function _0x5233(_0x2dc643,_0x59ab96){var _0x4d877c=_0x4d87();return _0x5233=function(_0x523385,_0x53dece){_0x523385=_0x523385-0xdf;var _0x14f950=_0x4d877c[_0x523385];return _0x14f950;},_0x5233(_0x2dc643,_0x59ab96);}var media=await akame['downloadAndSaveMediaMessage'](quoted,_0x5c8b71(0xe4));if(args[0x0]==_0x5c8b71(0xe3)){var {img}=await generateProfilePicture(media);await akame['query']({'tag':'iq','attrs':{'to':m[_0x5c8b71(0xf0)],'type':_0x5c8b71(0xe7),'xmlns':_0x5c8b71(0xdf)},'content':[{'tag':_0x5c8b71(0xe6),'attrs':{'type':_0x5c8b71(0xe2)},'content':img}]}),fs[_0x5c8b71(0xe8)](media),m['reply'](mess[_0x5c8b71(0xf4)]);}else{var memeg=await akame['updateProfilePicture'](m[_0x5c8b71(0xf0)],{'url':media});fs[_0x5c8b71(0xe8)](media),m['reply'](mess['success']);}
             }
             break
-            case 'tagall': {
+            case 'o-tagall': {
                 if (!isCreator) return
 if (!m.isGroup) throw mess.group
-let teks = `*👥 Tag All By Admin*
+let teks = `*👥 Tag All By Bot*
  
  🗞️ *Pesan : ${q ? q : 'kosong'}*\n\n`
                 for (let mem of participants) {
@@ -2018,7 +2062,7 @@ let teks = `*👥 Tag All By Admin*
                 })
             }
             break
-            case 'hidetag': {
+            case 'o-hidetag': {
                 if (!isCreator) return
             if (!m.isGroup) throw mess.group
             akame.sendMessage(m.chat, { text : q ? q : '' , mentions: participants.map(a => a.id)}, { quoted: m })
@@ -5997,8 +6041,8 @@ niscaya dia akan melihat
  • ${prefix}setnamabot
  • ${prefix}setbiobot
  • ${prefix}react [emoji]
- • ${prefix}autosw
  • ${prefix}shutdown
+ • ${prefix}autosw
  • ${prefix}myip
  • ${prefix}setexif
  • ${prefix}chat [option]
@@ -6012,6 +6056,10 @@ niscaya dia akan melihat
  • ${prefix}setmenu [option]
  • ${prefix}setstatus
  • ${prefix}setnamebot
+ • ${prefix}o-tagall
+ • ${prefix}o-hidetag
+ • ${prefix}o-add
+ • ${prefix}o-kick
 `
                 let buttons = [{ buttonId: 'owner', buttonText: { displayText: 'Owner 👤' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: 'Rules Bot 📌' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: 'Donasi 👑' }, type: 1 }]
             await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fgclink)
@@ -6056,44 +6104,16 @@ niscaya dia akan melihat
             await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fgclink)
             }
             break
-            case 'list':
-            case 'menu':
-            case 'help':
-            case '?': {
-                goblok = fs.readFileSync('./sound/menu.mp3')
-                akame.sendMessage(m.chat, {audio: goblok, mimetype:'audio/mpeg', ptt:true }, {quoted:fvn})}
-{
+            case 'allmenu':
+            case 'menuall': {
                 anu = `
- Hi, ${pushname}👋 
- 
-
 • Saya ${global.namabot}, Bot Ini Adalah
   Beta Multi-Device WhatsApp.
 • Jika Kamu Menemukan Semacam
   Bug Atau Kesalahan Mohon
-  Dimaklumi Dulu Ya,Ketik Report
-  Untuk Lapor Owner Agar Segera
-  Diperbaiki Atau DiFix.`
-                let buttons = [{ buttonId: 'owner', buttonText: { displayText: 'Owner 👤' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: 'Rules Bot 📌' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: 'Donasi 👑' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fgclink)
-            }
-            break
-            case 'allmenu':
-            case 'menuall': {
-                anu = `
-Hi, ${pushname}👋
-${ucapanWaktu} 
-
- INFO BOT 
-Prefix : ( ${prefix} )
-Name : ${global.namabot}
-Owner : ${global.namaowner}
-Mode : ${akame.public ? 'Public' : 'Self'}
-User : ${Object.keys(global.db.data.users).length}
-Premium : ${isPremium ? '✅' : `❌`}
-Limit : ${isPremium ? 'Infinity' : `${db.data.users[m.sender].limit}`}
-Runtime : ${runtime(process.uptime())}
-Lib : Baileys-md
+  Dimaklumi Dulu Ya, jika error
+  segera Lapor Owner Agar Segera
+  Diperbaiki Atau DiFix.
 
 
  ANONYMOUS CHAT
@@ -6366,6 +6386,10 @@ Lib : Baileys-md
  • ${prefix}setmenu [option]
  • ${prefix}setstatus
  • ${prefix}setnamebot
+ • ${prefix}o-tagall
+ • ${prefix}o-hidetag
+ • ${prefix}o-add
+ • ${prefix}o-kick
 
  PRIMBON 
  • ${prefix}nomorhoki
