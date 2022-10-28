@@ -1110,13 +1110,489 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             case 'p': {
                 m.reply(`bantu subscribe https://youtube.com/channel/UC5mUj5o2S4zwwGNbPA2J31Q`)
                 }
+                case 'sewa': {
+                m.reply(`5k/10Hari Minat Chat`)
+                }
                 break
-                // Kalau Mau Nambahin Gpp Tapi Jangan Diubah Ya Anj
-            case 'tqtt':
-            case 'tqto':
-            case 'thanksto': {
-                anu = `
-DikaArdnt.
+                case '🗿': {
+                m.reply(`bantu subscribe https://youtube.com/channel/UC5mUj5o2S4zwwGNbPA2J31Q`)
+                }
+                break
+                case 'kick': {
+                m.reply(`Maaf Fitur ${prefix}Kick Telah Di Hapus`)
+                }
+                break
+                case 'add': {
+                m.reply(`Maaf Fitur ${prefix}add Telah Di Hapus`)
+                }
+                case 'menu': {
+                m.reply(`
+SUPPORT ME 🙏
+My Youtube: https://bit.ly/3U4rAvr
+Donasi: https://saweria.co/Kianganz
+Grub: https://bit.ly/3gRsxJn
+
+
+ANONYMOUS CHAT
+  ${prefix}anonymous
+  ${prefix}start
+  ${prefix}next
+  ${prefix}keluar
+  ${prefix}menfes
+  ${prefix}confes
+  ${prefix}menfesconfirm
+
+ ANIME
+  ${prefix}hololive
+  ${prefix}couples
+  ${prefix}couple
+  ${prefix}waifu
+  ${prefix}husbu
+  ${prefix}neko
+  ${prefix}uniform
+  ${prefix}cosplay
+  ${prefix}maid
+  ${prefix}oppai
+  ${prefix}selfies
+  ${prefix}shinobu
+  ${prefix}akira
+  ${prefix}akiyama
+  ${prefix}ana
+  ${prefix}asuna
+  ${prefix}ayuzawa
+  ${prefix}boruto
+  ${prefix}chitoge
+  ${prefix}deidara
+  ${prefix}doraemon
+  ${prefix}elaina
+  ${prefix}emilia
+  ${prefix}erza
+  ${prefix}gremory
+  ${prefix}hestia
+  ${prefix}hinata
+  ${prefix}inori
+  ${prefix}isuzu
+  ${prefix}itachi
+  ${prefix}itori
+  ${prefix}kaga
+  ${prefix}kagura
+  ${prefix}kakasih
+  ${prefix}kaori
+  ${prefix}keneki
+  ${prefix}kotori
+  ${prefix}kurumi
+  ${prefix}loli
+  ${prefix}madara
+  ${prefix}mikasa
+  ${prefix}miku
+  ${prefix}minato
+  ${prefix}naruto
+  ${prefix}nezuko
+  ${prefix}onepiece
+  ${prefix}pokemon
+  ${prefix}rize
+  ${prefix}sagiri
+  ${prefix}sakura
+  ${prefix}shinka
+  ${prefix}shizuka
+  ${prefix}shouta
+  ${prefix}toukachan
+  ${prefix}tsunade
+  ${prefix}yuki
+  ${prefix}raiden
+  ${prefix}calliope
+  ${prefix}kitagawa
+
+ ASUPAN 
+  ${prefix}cecan
+  ${prefix}cogan
+  ${prefix}china
+  ${prefix}japan
+  ${prefix}korea
+  ${prefix}indonesia
+  ${prefix}malaysia
+  ${prefix}thailand
+  ${prefix}vietnam
+  ${prefix}blankpink
+  ${prefix}justina
+  ${prefix}kpop
+  ${prefix}rose
+  ${prefix}ryujin
+
+ CONVERT 
+  ${prefix}nulis
+  ${prefix}removebg [image]
+  ${prefix}toimage [reply sticker]
+  ${prefix}tovideo [reply sticker]
+  ${prefix}togif [reply sticker]
+  ${prefix}tourl [image / video]
+  ${prefix}tovn [reply video]
+  ${prefix}tomp3 [reply video]
+  ${prefix}toaudio [reply video]
+
+ DOWNLOADER 
+  ${prefix}tiktoknowm [url]
+  ${prefix}tiktokwm [url]
+  ${prefix}tiktokmp3 [url]
+  ${prefix}instagram [url]
+  ${prefix}instastory [url]
+  ${prefix}twitter [url]
+  ${prefix}twittermp3 [url]
+  ${prefix}facebook [url]
+  ${prefix}zippyshare [url]
+  ${prefix}mediafire [url]
+  ${prefix}ytmp3 [url]
+  ${prefix}ytmp4 [url]
+  ${prefix}getmusic [query]
+  ${prefix}getvideo [query]
+  ${prefix}umma [url]
+  ${prefix}joox [query]
+  ${prefix}soundcloud [url]
+
+ DATABASE 
+  ${prefix}setcmd [reply sticker/pesan]
+  ${prefix}listcmd
+  ${prefix}delcmd [reply sticker/pesan]
+  ${prefix}lockcmd
+  ${prefix}addmsg
+  ${prefix}listmsg
+  ${prefix}getmsg
+  ${prefix}delmsg
+ 
+ EPHOTO 
+  ${prefix}logo2
+  ${prefix}logo3
+  ${prefix}logo4
+  ${prefix}logogaming
+  ${prefix}logogirl
+  ${prefix}logogold
+  ${prefix}spiderlogo
+  ${prefix}ffcover
+  ${prefix}crossfire
+  ${prefix}galaxy
+  ${prefix}glass
+  ${prefix}neon
+  ${prefix}beach
+  ${prefix}awan
+  ${prefix}flower
+  ${prefix}bohlam
+  ${prefix}kaligrafi
+  ${prefix}coklat
+  ${prefix}quotes
+  ${prefix}grafity
+  ${prefix}marmer
+  ${prefix}musimsemi
+  ${prefix}ruby
+  ${prefix}shadowtext
+  ${prefix}starlogo
+  ${prefix}starnight
+  ${prefix}starnight2
+  ${prefix}blackpink
+  ${prefix}cake
+  ${prefix}flashlight
+  ${prefix}puppycute
+  ${prefix}yasuologo
+  ${prefix}certificate
+  ${prefix}igcertificate
+  ${prefix}ytcertificate
+
+ GROUP 
+  ${prefix}linkgroup
+  ${prefix}tagall [text]
+  ${prefix}revoke 
+  ${prefix}tagmenu [option]
+  ${prefix}ephemeral [option]
+  ${prefix}setppgrup full [image]
+  ${prefix}setname [text]
+  ${prefix}setdesc [text]
+  ${prefix}group [option]
+  ${prefix}editinfo [option]
+  ${prefix}kick @user
+  ${prefix}hidetag [text]
+  ${prefix}totag [reply]
+  ${prefix}promote @user
+  ${prefix}demote @user
+  ${prefix}mute [on/off]
+  ${prefix}antilink [on/off]
+  ${prefix}antilinkyt [on/off]
+  ${prefix}antilinktt [on/off]
+  ${prefix}vote [text]
+  ${prefix}devote
+  ${prefix}upvote
+  ${prefix}cekvote
+  ${prefix}hapusvote
+
+ GAME 
+  ${prefix}delttt
+  ${prefix}tictactoe
+  ${prefix}family100
+  ${prefix}tebakmenu [option]
+  ${prefix}math [mode]
+  ${prefix}suitpvp [@tag]
+
+ ISLAMIC 
+  ${prefix}iqra
+  ${prefix}hadist
+  ${prefix}alquran
+  ${prefix}juzamma
+  ${prefix}kisahnabi
+  ${prefix}tafsirsurah
+  ${prefix}jadwalsholat
+  ${prefix}niatsholat
+  ${prefix}kisahmuslim
+  ${prefix}asmaulhusna
+
+ KERANG 
+  ${prefix}apakah [teks]
+  ${prefix}bisakah [teks]
+  ${prefix}bagaimanakah [teks]
+  ${prefix}rate [teks]
+  ${prefix}kapankah [teks]
+  ${prefix}cekganteng [teks]
+  ${prefix}cekcantik [teks]
+  ${prefix}ceksange [teks]
+  ${prefix}cekgay [teks]
+  ${prefix}ceklesbi [teks]
+  ${prefix}cekmati [teks]
+  ${prefix}wangy [teks]
+  ${prefix}halah [teks]
+  ${prefix}hilih [teks]
+  ${prefix}huluh [teks]
+  ${prefix}heleh [teks]
+  ${prefix}holoh [teks]
+  ${prefix}jadian [teks]
+  ${prefix}jodohku [teks]
+
+ MEME 
+  ${prefix}animememe
+  ${prefix}anjing
+  ${prefix}meme
+  ${prefix}memeindo
+  ${prefix}darkjoke
+  ${prefix}darkjokes
+  ${prefix}onecak
+
+ MAIN 
+  ${prefix}ping
+  ${prefix}owner
+  ${prefix}donasi
+  ${prefix}delete
+  ${prefix}infochat
+  ${prefix}quoted
+  ${prefix}listpc
+  ${prefix}listgc
+  ${prefix}listonline
+  ${prefix}speedtest
+
+ OWNER 
+  ${prefix}setnamabot
+  ${prefix}setbiobot
+  ${prefix}react [emoji]
+  ${prefix}shutdown
+  ${prefix}autosw
+  ${prefix}myip
+  ${prefix}setexif
+  ${prefix}chat [option]
+  ${prefix}join [link]
+  ${prefix}leave
+  ${prefix}block @user
+  ${prefix}unblock @user
+  ${prefix}bcgroup [text]
+  ${prefix}bcall [text]
+  ${prefix}setppbot full [image]
+  ${prefix}setmenu [option]
+  ${prefix}setstatus
+  ${prefix}setnamebot
+  ${prefix}o-tagall
+  ${prefix}o-hidetag
+  ${prefix}o-add
+  ${prefix}o-kick
+
+ PRIMBON 
+  ${prefix}nomorhoki
+  ${prefix}artimimpi
+  ${prefix}artinama
+  ${prefix}ramaljodoh
+  ${prefix}ramaljodohbali
+  ${prefix}suamiistri
+  ${prefix}ramalcinta
+  ${prefix}cocoknama
+  ${prefix}pasangan
+  ${prefix}jadiannikah
+  ${prefix}sifatusaha
+  ${prefix}rezeki
+  ${prefix}pekerjaan
+  ${prefix}nasib
+  ${prefix}penyakit
+  ${prefix}tarot
+  ${prefix}fengshui
+  ${prefix}haribaik
+  ${prefix}harisangar
+  ${prefix}harisial
+  ${prefix}nagahari
+  ${prefix}arahrezeki
+  ${prefix}peruntungan
+  ${prefix}weton
+  ${prefix}karakter
+  ${prefix}keberuntungan
+  ${prefix}memancing
+  ${prefix}masasubur
+  ${prefix}zodiak
+  ${prefix}shio
+
+ PHOTO EDITOR 
+  ${prefix}gay
+  ${prefix}contrast
+  ${prefix}pixelate
+  ${prefix}dither
+  ${prefix}sepia
+  ${prefix}brighten
+  ${prefix}greyscale
+  ${prefix}circle
+  ${prefix}blur
+  ${prefix}invert
+  ${prefix}scale
+  ${prefix}upscale
+  ${prefix}glass
+  ${prefix}wasted
+  ${prefix}passed
+  ${prefix}comrade
+  ${prefix}jail
+  ${prefix}triggered
+
+ QUOTES 
+  ${prefix}quotesanime
+  ${prefix}animequotes
+  ${prefix}motivasi
+  ${prefix}dilanquote
+  ${prefix}bucinquote
+  ${prefix}katasenja
+  ${prefix}randomquote
+  ${prefix}muslimquote
+  ${prefix}galauquote
+  ${prefix}kanyequote
+  ${prefix}trumpquote
+  ${prefix}trumpthink
+  ${prefix}creepyfact
+  ${prefix}faktaunik
+  ${prefix}puisi
+  ${prefix}pantun
+  ${prefix}cerpen
+
+ RANDOM 
+  ${prefix}simih [teks]
+  ${prefix}apikey
+  ${prefix}coffe
+  ${prefix}ebinary [teks]
+  ${prefix}dbinary [teks]
+  ${prefix}styletext [teks]
+
+ STICKER 
+  ${prefix}sticker
+  ${prefix}stickerwm
+  ${prefix}attp [teks]
+  ${prefix}ttp [teks]
+  ${prefix}mukalu
+  ${prefix}paimon
+  ${prefix}amongus
+  ${prefix}dadu
+  ${prefix}gura
+  ${prefix}doge
+  ${prefix}bucinstick
+  ${prefix}patrick
+  ${prefix}emojimix [emoji+emoji]
+  ${prefix}emojimix2 [emoji]
+
+ SEARCH 
+  ${prefix}play [query]
+  ${prefix}yts [query]
+  ${prefix}google [query]
+  ${prefix}gimage [query]
+  ${prefix}pinterest [query]
+  ${prefix}wallpaper [query]
+  ${prefix}wikimedia [query]
+  ${prefix}ytsearch [query]
+  ${prefix}ringtone [query]
+
+ STALK 
+  ${prefix}cekapi
+  ${prefix}githubstalk [username]
+  ${prefix}stalk [option] [query]
+
+ TEXT PRO 
+  ${prefix}3dchristmas
+  ${prefix}3ddeepsea
+  ${prefix}americanflag
+  ${prefix}3dscifi
+  ${prefix}3drainbow
+  ${prefix}3dwaterpipe
+  ${prefix}halloweenskeleton
+  ${prefix}sketch
+  ${prefix}bluecircuit
+  ${prefix}space
+  ${prefix}metallic
+  ${prefix}fiction
+  ${prefix}greenhorror
+  ${prefix}transformer
+  ${prefix}berry
+  ${prefix}thunder
+  ${prefix}magma
+  ${prefix}3dcrackedstone
+  ${prefix}3dneonlight
+  ${prefix}impressiveglitch
+  ${prefix}naturalleaves
+  ${prefix}fireworksparkle
+  ${prefix}matrix
+  ${prefix}dropwater
+  ${prefix}harrypotter
+  ${prefix}foggywindow
+  ${prefix}neondevils
+  ${prefix}christmasholiday
+  ${prefix}3dgradient
+  ${prefix}blackpink
+  ${prefix}gluetext
+
+ VOICE CHANGER 
+  ${prefix}bass
+  ${prefix}blown
+  ${prefix}deep
+  ${prefix}earrape
+  ${prefix}fast
+  ${prefix}fat
+  ${prefix}nightcore
+  ${prefix}reverse
+  ${prefix}robot
+  ${prefix}slow
+  ${prefix}tupai
+
+ WEBZONE 
+  ${prefix}jadwaltv
+  ${prefix}playstore
+  ${prefix}gsmarena
+  ${prefix}jadwalbioskop
+  ${prefix}nowplayingbioskop
+  ${prefix}aminio
+  ${prefix}wattpad
+  ${prefix}webtoons
+  ${prefix}drakor
+
+ WALLPAPER 
+  ${prefix}cyberspace
+  ${prefix}mountain
+  ${prefix}programming
+  ${prefix}technology
+  ${prefix}aesthetic
+  ${prefix}boneka
+  ${prefix}hekel
+  ${prefix}kucing
+  ${prefix}mobil
+  ${prefix}motor
+  ${prefix}pubg
+  ${prefix}wallhp`)
+                }
+                break
+                case 'p': {
+                m.reply(`DikaArdnt.
 GuaAbuzz.
 Kian.
 SkyzooDev.
@@ -1127,89 +1603,7 @@ Mhankbarbar.
 ZeeoneOfc.
 Penyedia Module.
 Penyedia Res Api's.
-All My Friends.`
-                let buttons = [{ buttonId: 'owner', buttonText: { displayText: 'Owner 👤' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: 'Rules Bot 📌' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: 'Donasi 👑' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fgclink)
-            }
-            break
-            case 'menu': {
-               let simple = `
-SILAHKAN PILIH MENU NYA`
-                let sections = [
-                {
-                title: "All Menu Bot ",
-                rows: [
-                {title: "  All Menu ", rowId: `${prefix}allmenu`, description: `Menampilkan All Menu`}
-                ]
-                },
-                {
-                title: "List Menu Simpel Bot ",
-                rows: [
-                {title: "  Anonymous Chat Menu ", rowId: `${prefix}anonymousmenu`, description: `Menampilkan Anonymous Chat Menu`},
-                {title: "  Anime Menu ", rowId: `${prefix}animemenu`, description: `Menampilkan Anime Menu`},
-                {title: "  Asupan Menu ", rowId: `${prefix}asupanmenu`, description: `Menampilkan Asupan Menu`},
-                {title: "  Convert Menu ", rowId: `${prefix}convertmenu`, description: `Menampilkan Convert Menu`},
-                {title: "  Download Menu ", rowId: `${prefix}downloadmenu`, description: `Menampilkan Download Menu`},
-                {title: "  Database Menu ", rowId: `${prefix}databasemenu`, description: `Menampilkan Database Menu`},
-                {title: "  Ephoto Menu ", rowId: `${prefix}ephotomenu`, description: `Menampilkan Ephoto Menu`},
-                {title: "  Group Menu ", rowId: `${prefix}groupmenu`, description: `Menampilkan Group Menu`},
-                {title: "  Game Menu ", rowId: `${prefix}gamemenu`, description: `Menampilkan Game Menu`},
-                {title: "  Islamic Menu ", rowId: `${prefix}islamicmenu`, description: `Menampilkan Islamic Menu`},
-                {title: "  Kerang Menu ", rowId: `${prefix}kerangmenu`, description: `Menampilkan Kerang Menu`},
-                {title: "  Meme Menu ", rowId: `${prefix}mememenu`, description: `Menampilkan Meme Menu`},
-                {title: "  Main Menu ", rowId: `${prefix}mainmenu`, description: `Menampilkan Main Menu`},
-                {title: "  Owner Menu ", rowId: `${prefix}ownermenu`, description: `Menampilkan Owner Menu`},
-                {title: "  Primbon Menu ", rowId: `${prefix}primbonmenu`, description: `Menampilkan Primbon Menu`},
-                {title: "  Photo Editor Menu ", rowId: `${prefix}photoeditormenu`, description: `Menampilkan Photo Editor Menu`},
-                {title: "  Quotes Menu ", rowId: `${prefix}quotesmenu`, description: `Menampilkan Quotes Menu`},
-                {title: "  Random Menu ", rowId: `${prefix}randommenu`, description: `Menampilkan Random Menu`},
-                {title: "  Sticker Menu ", rowId: `${prefix}stickermenu`, description: `Menampilkan Sticker Menu`},
-                {title: "  Search Menu ", rowId: `${prefix}searchmenu`, description: `Menampilkan Search Menu`},
-                {title: "  Stalk Menu ", rowId: `${prefix}stalkmenu`, description: `Menampilkan Stalk Menu`},
-                {title: "  Text Pro Menu ", rowId: `${prefix}textpromenu`, description: `Menampilkan Text Pro Menu`},
-                {title: "  Voice Changer Menu ", rowId: `${prefix}voicemenu`, description: `Menampilkan Voice Changer Menu`},
-                {title: "  Webzone Menu ", rowId: `${prefix}webzonemenu`, description: `Menampilkan Webzone Menu`},
-                {title: "  Wallpaper Menu ", rowId: `${prefix}wallpapermenu`, description: `Menampilkan Wallpaper Menu`}
-                ]
-                },
-                {
-                title: "Rules Bot ",
-                rows: [
-                {title: "  Rules Bot ", rowId: `${prefix}rules`, description: `Klik Untuk Melihat Rules Bot`}
-                ]
-                },
-                {
-                title: "Open Jasa Sewabot ",
-                rows: [
-                {title: "  Sewa Bot ", rowId: `${prefix}sewabot`, description: `Klik Untuk Melihat Harga Sewabot`}
-                ]
-                },
-                {
-                title: "Open Donasi ",
-                rows: [
-                {title: "  Open Donasi ", rowId: `${prefix}donasi`, description: `Bantu Support Creator Guys`}
-                ]
-                },
-                {
-                title: "Info Tentang Bot? ",
-                rows: [
-                {title: "  Info Bot ", rowId: `${prefix}ping`, description: `Klik Untuk Melihat Info Bot`}
-                ]
-                },
-                {
-                title: "Info Tentang Owner? ",
-                rows: [
-                {title: "  Chat Owner ", rowId: `${prefix}owner`, description: `Menampilkan Nomor WhatsApp Owner`}
-                ]
-                },
-                {
-                title: "Thanks To ",
-                rows: [
-                {title: "  Contributor ", rowId: `${prefix}tqtt`, description: `Menampilkan Nama Teman - Teman Saya Yang Sudah Membantu Merakit Bot Ini !!`}
-                ]
-                }
-                ]
-                akame.sendListMsg(m.chat, simple, akame.user.name, `Hello Everyone !`, `PENCET DISINI`, sections, fvideo)
+All My Friends.`)
             }
             break
             case 'sc':
@@ -1952,7 +2346,7 @@ SILAHKAN PILIH MENU NYA`
 		await akame.groupParticipantsUpdate(m.chat, [users], 'add').then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
 		    }
 		    break
-		    case 'add': {
+		    case '𝙖𝙙𝙙': {
                 if (!m.isGroup) throw mess.group
                 if (!isAdmins && !isGroupOwner && !isCreator) throw mess.admin
                 if (!isBotAdmins) throw mess.botAdmin
@@ -1960,7 +2354,7 @@ SILAHKAN PILIH MENU NYA`
                 await akame.groupParticipantsUpdate(m.chat, [users], 'add').then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
 		    }
             break
-            case 'kick': {
+            case '𝙠𝙞𝙘𝙠': {
                 if (!m.isGroup) throw mess.group
                 if (!isAdmins && !isGroupOwner && !isCreator) throw mess.admin
                 if (!isBotAdmins) throw mess.botAdmin
@@ -5414,1166 +5808,6 @@ Sanksi: BLOCK PERMANENT
 `
                 let buttons = [{ buttonId: 'owner', buttonText: { displayText: 'Owner 👤' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: 'Rules Bot 📌' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: 'Donasi 👑' }, type: 1 }]
             await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fgclink)
-            }
-            break
-            case 'sewa':
-            case 'sewabot': {
-                anu = `
- Hi, ${pushname}👋 
- ${ucapanWaktu} 
-
- SEWA BOT 
-
- 1 Minggu 5k
- 1 Bulan 15k
-
- MINAT CHAT OWNER BOT
- 
- KEUNTUNGAN 
-
- On 24 Jam
- Run Dirpd/Heroku/Oktote
- Anti Delay
- Anti Virtex
- Antilink WA/TT/YT
- Welcome Image
- Left
-
- SISTEM 
-
- Kirim » Bukti Pembayaran » Bot Join
-`
-                let buttons = [{ buttonId: 'owner', buttonText: { displayText: 'Owner 👤' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: 'Rules Bot 📌' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: 'Donasi 👑' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fgclink)
-            }
-            break
-            case 'donasi':
-            case 'donate': {
-                anu = `
- Hi, ${pushname}👋 
- ${ucapanWaktu} 
-
- DONASI 
-
-INDOSAT : 085790864091
-AXIS : 083845409710
-
-فَمَنْ يَّعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَّرَهٗۚ
-
- Artinya : Maka barangsiapa
-mengerjakan kebaikan seberatzarrah,
-niscaya dia akan melihat
-(balasan)nya.
-
- *Terima Kasih*
-`
-                let buttons = [{ buttonId: 'owner', buttonText: { displayText: 'Owner 👤' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: 'Rules Bot 📌' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: 'Donasi 👑' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fgclink)
-            }
-            break
-            case 'groupmenu':
-            case 'menugroup': {
-                anu = `
- GROUP 
- • ${prefix}linkgroup
- • ${prefix}tagall [text]
- • ${prefix}revoke
- • ${prefix}tagmenu [option]
- • ${prefix}ephemeral [option]
- • ${prefix}setppgrup full [image]
- • ${prefix}setname [text]
- • ${prefix}setdesc [text]
- • ${prefix}group [option]
- • ${prefix}editinfo [option]
- • ${prefix}kick @user
- • ${prefix}hidetag [text]
- • ${prefix}totag [reply]
- • ${prefix}promote @user
- • ${prefix}demote @user
- • ${prefix}mute [on/off]
- • ${prefix}antilink [on/off]
- • ${prefix}antilinkyt [on/off]
- • ${prefix}antilinktt [on/off]
- • ${prefix}vote [text]
- • ${prefix}devote
- • ${prefix}upvote
- • ${prefix}cekvote
- • ${prefix}hapusvote
-`
-                let buttons = [{ buttonId: 'owner', buttonText: { displayText: 'Owner 👤' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: 'Rules Bot 📌' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: 'Donasi 👑' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fgclink)
-            }
-            break
-            case 'downloadmenu':
-            case 'menudownload': {
-                anu = `
- DOWNLOADER 
- • ${prefix}tiktoknowm [url]
- • ${prefix}tiktokwm [url]
- • ${prefix}tiktokmp3 [url]
- • ${prefix}instagram [url]
- • ${prefix}instastory [url]
- • ${prefix}twitter [url]
- • ${prefix}twittermp3 [url]
- • ${prefix}facebook [url]
- • ${prefix}zippyshare [url]
- • ${prefix}mediafire [url]
- • ${prefix}ytmp3 [url]
- • ${prefix}ytmp4 [url]
- • ${prefix}getmusic [query]
- • ${prefix}getvideo [query]
- • ${prefix}umma [url]
- • ${prefix}joox [query]
- • ${prefix}soundcloud [url]
-`
-                let buttons = [{ buttonId: 'owner', buttonText: { displayText: 'Owner 👤' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: 'Rules Bot 📌' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: 'Donasi 👑' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fgclink)
-            }
-            break
-            case 'searchmenu':
-            case 'menusearch': {
-                anu = `
- SEARCH 
- • ${prefix}play [query]
- • ${prefix}yts [query]
- • ${prefix}google [query]
- • ${prefix}gimage [query]
- • ${prefix}pinterest [query]
- • ${prefix}wallpaper [query]
- • ${prefix}wikimedia [query]
- • ${prefix}ytsearch [query]
- • ${prefix}ringtone [query]
-`
-                let buttons = [{ buttonId: 'owner', buttonText: { displayText: 'Owner 👤' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: 'Rules Bot 📌' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: 'Donasi 👑' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fgclink)
-            }
-            break
-            case 'stickermenu':
-            case 'menusticker': {
-                anu = `
- STICKER 
- • ${prefix}sticker
- • ${prefix}stickerwm
- • ${prefix}attp [teks]
- • ${prefix}ttp [teks]
- • ${prefix}mukalu
- • ${prefix}paimon
- • ${prefix}amongus
- • ${prefix}dadu
- • ${prefix}gura
- • ${prefix}doge
- • ${prefix}bucinstick
- • ${prefix}patrick
- • ${prefix}emojimix [emoji+emoji]
- • ${prefix}emojimix2 [emoji]
-`
-                let buttons = [{ buttonId: 'owner', buttonText: { displayText: 'Owner 👤' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: 'Rules Bot 📌' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: 'Donasi 👑' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fgclink)
-            }
-            break
-            case 'animemenu':
-            case 'menuanime': {
-                anu = `
- ANIME 
- • ${prefix}hololive
- • ${prefix}couples
- • ${prefix}couple
- • ${prefix}waifu
- • ${prefix}husbu
- • ${prefix}neko
- • ${prefix}uniform
- • ${prefix}cosplay
- • ${prefix}maid
- • ${prefix}oppai
- • ${prefix}selfies
- • ${prefix}shinobu
- • ${prefix}akira
- • ${prefix}akiyama
- • ${prefix}ana
- • ${prefix}asuna
- • ${prefix}ayuzawa
- • ${prefix}boruto
- • ${prefix}chitoge
- • ${prefix}deidara
- • ${prefix}doraemon
- • ${prefix}elaina
- • ${prefix}emilia
- • ${prefix}erza
- • ${prefix}gremory
- • ${prefix}hestia
- • ${prefix}hinata
- • ${prefix}inori
- • ${prefix}isuzu
- • ${prefix}itachi
- • ${prefix}itori
- • ${prefix}kaga
- • ${prefix}kagura
- • ${prefix}kakasih
- • ${prefix}kaori
- • ${prefix}keneki
- • ${prefix}kotori
- • ${prefix}kurumi
- • ${prefix}loli
- • ${prefix}madara
- • ${prefix}mikasa
- • ${prefix}miku
- • ${prefix}minato
- • ${prefix}naruto
- • ${prefix}nezuko
- • ${prefix}onepiece
- • ${prefix}pokemon
- • ${prefix}rize
- • ${prefix}sagiri
- • ${prefix}sakura
- • ${prefix}shinka
- • ${prefix}shizuka
- • ${prefix}shouta
- • ${prefix}toukachan
- • ${prefix}tsunade
- • ${prefix}yuki
- • ${prefix}raiden
- • ${prefix}calliope
- • ${prefix}kitagawa
-`
-                let buttons = [{ buttonId: 'owner', buttonText: { displayText: 'Owner 👤' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: 'Rules Bot 📌' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: 'Donasi 👑' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fgclink)
-            }
-            break
-            case 'asupanmenu':
-            case 'menuasupan': {
-                anu = `
- ASUPAN
- • ${prefix}cecan
- • ${prefix}cogan
- • ${prefix}china
- • ${prefix}japan
- • ${prefix}korea
- • ${prefix}indonesia
- • ${prefix}malaysia
- • ${prefix}thailand
- • ${prefix}vietnam
- • ${prefix}blankpink
- • ${prefix}justina
- • ${prefix}kpop
- • ${prefix}rose
- • ${prefix}ryujin
-`
-                let buttons = [{ buttonId: 'owner', buttonText: { displayText: 'Owner 👤' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: 'Rules Bot 📌' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: 'Donasi 👑' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fgclink)
-            }
-            break
-            case 'quotesmenu':
-            case 'menuquotes': {
-                anu = `
- QUOTES 
- • ${prefix}quotesanime
- • ${prefix}animequotes
- • ${prefix}motivasi
- • ${prefix}dilanquote
- • ${prefix}bucinquote
- • ${prefix}katasenja
- • ${prefix}randomquote
- • ${prefix}muslimquote
- • ${prefix}galauquote
- • ${prefix}kanyequote
- • ${prefix}trumpquote
- • ${prefix}trumpthink
- • ${prefix}creepyfact
- • ${prefix}faktaunik
- • ${prefix}puisi
- • ${prefix}pantun
- • ${prefix}cerpen
-`
-                let buttons = [{ buttonId: 'owner', buttonText: { displayText: 'Owner 👤' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: 'Rules Bot 📌' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: 'Donasi 👑' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fgclink)
-            }
-            break
-            case 'mememenu':
-            case 'menumeme': {
-                anu = `
- MEME 
- • ${prefix}animememe
- • ${prefix}anjing
- • ${prefix}meme
- • ${prefix}memeindo
- • ${prefix}darkjoke
- • ${prefix}darkjokes
- • ${prefix}onecak
-`
-                let buttons = [{ buttonId: 'owner', buttonText: { displayText: 'Owner 👤' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: 'Rules Bot 📌' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: 'Donasi 👑' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fgclink)
-            }
-            break
-            case 'randommenu':
-            case 'menurandom': {
-                anu = `
- RANDOM 
-
- • ${prefix}simih [teks]
- • ${prefix}apikey
- • ${prefix}coffe
- • ${prefix}ebinary [teks]
- • ${prefix}dbinary [teks]
- • ${prefix}styletext [teks]
-`
-                let buttons = [{ buttonId: 'owner', buttonText: { displayText: 'Owner 👤' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: 'Rules Bot 📌' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: 'Donasi 👑' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fgclink)
-            }
-            break
-            case 'textpromenu':
-            case 'menutextpro': {
-                anu = `
- TEXT PRO 
- • ${prefix}3dchristmas
- • ${prefix}3ddeepsea
- • ${prefix}americanflag
- • ${prefix}3dscifi
- • ${prefix}3drainbow
- • ${prefix}3dwaterpipe
- • ${prefix}halloweenskeleton
- • ${prefix}sketch
- • ${prefix}bluecircuit
- • ${prefix}space
- • ${prefix}metallic
- • ${prefix}fiction
- • ${prefix}greenhorror
- • ${prefix}transformer
- • ${prefix}berry
- • ${prefix}thunder
- • ${prefix}magma
- • ${prefix}3dcrackedstone
- • ${prefix}3dneonlight
- • ${prefix}impressiveglitch
- • ${prefix}naturalleaves
- • ${prefix}fireworksparkle
- • ${prefix}matrix
- • ${prefix}dropwater
- • ${prefix}harrypotter
- • ${prefix}foggywindow
- • ${prefix}neondevils
- • ${prefix}christmasholiday
- • ${prefix}3dgradient
- • ${prefix}blackpink
- • ${prefix}gluetext
-`
-                let buttons = [{ buttonId: 'owner', buttonText: { displayText: 'Owner 👤' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: 'Rules Bot 📌' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: 'Donasi 👑' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fgclink)
-            }
-            break
-            case 'photoeditormenu':
-            case 'menuphotoeditor': {
-                anu = `
- PHOTO EDITOR 
- • ${prefix}gay
- • ${prefix}contrast
- • ${prefix}pixelate
- • ${prefix}dither
- • ${prefix}sepia
- • ${prefix}brighten
- • ${prefix}greyscale
- • ${prefix}circle
- • ${prefix}blur
- • ${prefix}invert
- • ${prefix}scale
- • ${prefix}upscale
- • ${prefix}glass
- • ${prefix}wasted
- • ${prefix}passed
- • ${prefix}comrade
- • ${prefix}jail
- • ${prefix}triggered
-`
-                let buttons = [{ buttonId: 'owner', buttonText: { displayText: 'Owner 👤' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: 'Rules Bot 📌' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: 'Donasi 👑' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fgclink)
-            }
-            break
-            case 'ephotomenu':
-            case 'menuephoto': {
-                anu = `
- EPHOTO 
- • ${prefix}logo2
- • ${prefix}logo3
- • ${prefix}logo4
- • ${prefix}logogaming
- • ${prefix}logogirl
- • ${prefix}logogold
- • ${prefix}spiderlogo
- • ${prefix}ffcover
- • ${prefix}crossfire
- • ${prefix}galaxy
- • ${prefix}glass
- • ${prefix}neon
- • ${prefix}beach
- • ${prefix}awan
- • ${prefix}flower
- • ${prefix}bohlam
- • ${prefix}kaligrafi
- • ${prefix}coklat
- • ${prefix}quotes
- • ${prefix}grafity
- • ${prefix}marmer
- • ${prefix}musimsemi
- • ${prefix}ruby
- • ${prefix}shadowtext
- • ${prefix}starlogo
- • ${prefix}starnight
- • ${prefix}starnight2
- • ${prefix}blackpink
- • ${prefix}cake
- • ${prefix}flashlight
- • ${prefix}puppycute
- • ${prefix}yasuologo
- • ${prefix}certificate
- • ${prefix}igcertificate
- • ${prefix}ytcertificate
-`
-                let buttons = [{ buttonId: 'owner', buttonText: { displayText: 'Owner 👤' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: 'Rules Bot 📌' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: 'Donasi 👑' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fgclink)
-            }
-            break
-            case 'gamemenu':
-            case 'menugame': {
-                anu = `
- GAME 
- • ${prefix}delttt
- • ${prefix}tictactoe
- • ${prefix}family100
- • ${prefix}tebakmenu [option]
- • ${prefix}math [mode]
- • ${prefix}suitpvp [@tag]
-`
-                let buttons = [{ buttonId: 'owner', buttonText: { displayText: 'Owner 👤' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: 'Rules Bot 📌' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: 'Donasi 👑' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fgclink)
-            }
-            break
-            case 'primbonmenu':
-            case 'menuprimbon': {
-                anu = `
- PRIMBON 
- • ${prefix}nomorhoki
- • ${prefix}artimimpi
- • ${prefix}artinama
- • ${prefix}ramaljodoh
- • ${prefix}ramaljodohbali
- • ${prefix}suamiistri
- • ${prefix}ramalcinta
- • ${prefix}cocoknama
- • ${prefix}pasangan
- • ${prefix}jadiannikah
- • ${prefix}sifatusaha
- • ${prefix}rezeki
- • ${prefix}pekerjaan
- • ${prefix}nasib
- • ${prefix}penyakit
- • ${prefix}tarot
- • ${prefix}fengshui
- • ${prefix}haribaik
- • ${prefix}harisangar
- • ${prefix}harisial
- • ${prefix}nagahari
- • ${prefix}arahrezeki
- • ${prefix}peruntungan
- • ${prefix}weton
- • ${prefix}karakter
- • ${prefix}keberuntungan
- • ${prefix}memancing
- • ${prefix}masasubur
- • ${prefix}zodiak
- • ${prefix}shio
-`
-                let buttons = [{ buttonId: 'owner', buttonText: { displayText: 'Owner 👤' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: 'Rules Bot 📌' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: 'Donasi 👑' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fgclink)
-            }
-            break
-            case 'convertmenu':
-            case 'menuconvert': {
-                anu = `
- CONVERT 
- • ${prefix}nulis
- • ${prefix}removebg [image]
- • ${prefix}toimage [reply sticker]
- • ${prefix}tovideo [reply sticker]
- • ${prefix}togif [reply sticker]
- • ${prefix}tourl [image / video]
- • ${prefix}tovn [reply video]
- • ${prefix}tomp3 [reply video]
- • ${prefix}toaudio [reply video]
-
-`
-                let buttons = [{ buttonId: 'owner', buttonText: { displayText: 'Owner 👤' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: 'Rules Bot 📌' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: 'Donasi ??' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fgclink)
-            }
-            break
-            case 'mainmenu':
-            case 'menumain': {
-                anu = `
- MAIN 
- • ${prefix}ping
- • ${prefix}owner
- • ${prefix}donasi
- • ${prefix}delete
- • ${prefix}infochat
- • ${prefix}quoted
- • ${prefix}listpc
- • ${prefix}listgc
- • ${prefix}listonline
- • ${prefix}speedtest
- • ${prefix}request [req]
- • ${prefix}report [bug]
-`
-                let buttons = [{ buttonId: 'owner', buttonText: { displayText: 'Owner 👤' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: 'Rules Bot 📌' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: 'Donasi 👑' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fgclink)
-            }
-            break
-            case 'databasemenu':
-            case 'menudatabase': {
-                anu = `
- DATABASE 
- • ${prefix}setcmd [reply sticker/pesan]
- • ${prefix}listcmd
- • ${prefix}delcmd [reply sticker/pesan]
- • ${prefix}lockcmd
- • ${prefix}addmsg
- • ${prefix}listmsg
- • ${prefix}getmsg
- • ${prefix}delmsg
-`
-                let buttons = [{ buttonId: 'owner', buttonText: { displayText: 'Owner 👤' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: 'Rules Bot 📌' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: 'Donasi 👑' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fgclink)
-            }
-            break
-            case 'anonymousmenu':
-            case 'menuanonymous': {
-                anu = `
- ANONYMOUS CHAT 
- • ${prefix}anonymous
- • ${prefix}start
- • ${prefix}next
- • ${prefix}keluar
-`
-                let buttons = [{ buttonId: 'owner', buttonText: { displayText: 'Owner 👤' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: 'Rules Bot 📌' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: 'Donasi 👑' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fgclink)
-            }
-            break
-            case 'islamicmenu':
-            case 'menuislamic': {
-                anu = `
- ISLAMIC 
- • ${prefix}iqra
- • ${prefix}hadist
- • ${prefix}alquran
- • ${prefix}juzamma
- • ${prefix}kisahnabi
- • ${prefix}tafsirsurah
- • ${prefix}jadwalsholat
- • ${prefix}niatsholat
- • ${prefix}kisahmuslim
- • ${prefix}asmaulhusna
-`
-                let buttons = [{ buttonId: 'owner', buttonText: { displayText: 'Owner 👤' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: 'Rules Bot 📌' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: 'Donasi 👑' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fgclink)
-            }
-            break
-            case 'kerangmenu':
-            case 'menukerang': {
-                anu = `
- KERANG 
- • ${prefix}apakah [teks]
- • ${prefix}bisakah [teks]
- • ${prefix}bagaimanakah [teks]
- • ${prefix}rate [teks]
- • ${prefix}kapankah [teks]
- • ${prefix}cekganteng [teks]
- • ${prefix}cekcantik [teks]
- • ${prefix}ceksange [teks]
- • ${prefix}cekgay [teks]
- • ${prefix}ceklesbi [teks]
- • ${prefix}cekmati [teks]
- • ${prefix}wangy [teks]
- • ${prefix}halah [teks]
- • ${prefix}hilih [teks]
- • ${prefix}huluh [teks]
- • ${prefix}heleh [teks]
- • ${prefix}holoh [teks]
- • ${prefix}jadian [teks]
- • ${prefix}jodohku [teks]
-`
-                let buttons = [{ buttonId: 'owner', buttonText: { displayText: 'Owner 👤' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: 'Rules Bot 📌' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: 'Donasi 👑' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fgclink)
-            }
-            break
-            case 'voicemenu':
-            case 'menuvoice': {
-                anu = `
- VOICE CHANGER 
- • ${prefix}bass
- • ${prefix}blown
- • ${prefix}deep
- • ${prefix}earrape
- • ${prefix}fast
- • ${prefix}fat
- • ${prefix}nightcore
- • ${prefix}reverse
- • ${prefix}robot
- • ${prefix}slow
- • ${prefix}tupai
-`
-                let buttons = [{ buttonId: 'owner', buttonText: { displayText: 'Owner 👤' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: 'Rules Bot 📌' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: 'Donasi 👑' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fgclink)
-            }
-            break
-            case 'stalkmenu':
-            case 'menustalk': {
-                anu = `
- STALK 
- • ${prefix}cekapi
- • ${prefix}githubstalk [username]
- • ${prefix}stalk [option] [query]
-`
-                let buttons = [{ buttonId: 'owner', buttonText: { displayText: 'Owner 👤' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: 'Rules Bot 📌' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: 'Donasi 👑' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fgclink)
-            }
-            break
-            case 'ownermenu':
-            case 'menuowner': {
-                anu = `
- OWNER 
- • ${prefix}setnamabot
- • ${prefix}setbiobot
- • ${prefix}react [emoji]
- • ${prefix}shutdown
- • ${prefix}autosw
- • ${prefix}myip
- • ${prefix}setexif
- • ${prefix}chat [option]
- • ${prefix}join [link]
- • ${prefix}leave
- • ${prefix}block @user
- • ${prefix}unblock @user
- • ${prefix}bcgroup [text]
- • ${prefix}bcall [text]
- • ${prefix}setppbot full [image]
- • ${prefix}setmenu [option]
- • ${prefix}setstatus
- • ${prefix}setnamebot
- • ${prefix}o-tagall
- • ${prefix}o-hidetag
- • ${prefix}o-add
- • ${prefix}o-kick
-`
-                let buttons = [{ buttonId: 'owner', buttonText: { displayText: 'Owner 👤' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: 'Rules Bot 📌' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: 'Donasi 👑' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fgclink)
-            }
-            break
-            case 'webzonemenu':
-            case 'menuwebzone': {
-                anu = `
- WEBZONE 
- • ${prefix}jadwaltv
- • ${prefix}playstore
- • ${prefix}gsmarena
- • ${prefix}jadwalbioskop
- • ${prefix}nowplayingbioskop
- • ${prefix}aminio
- • ${prefix}wattpad
- • ${prefix}webtoons
- • ${prefix}drakor
-`
-                let buttons = [{ buttonId: 'owner', buttonText: { displayText: 'Owner 👤' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: 'Rules Bot 📌' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: 'Donasi 👑' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fgclink)
-            }
-            break
-            case 'wallpapermenu':
-            case 'menuwalpaper': {
-                anu = `
- WALLPAPER 
- • ${prefix}cyberspace
- • ${prefix}mountain
- • ${prefix}programming
- • ${prefix}technology
- • ${prefix}aesthetic
- • ${prefix}boneka
- • ${prefix}hekel
- • ${prefix}kucing
- • ${prefix}mobil
- • ${prefix}motor
- • ${prefix}pubg
- • ${prefix}wallhp
-`
-                let buttons = [{ buttonId: 'owner', buttonText: { displayText: 'Owner 👤' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: 'Rules Bot 📌' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: 'Donasi 👑' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fgclink)
-            }
-            break
-            case 'allmenu':
-            case 'menuall': {
-                anu = `
-• Saya ${global.namabot}, Bot Ini Adalah
-  Beta Multi-Device WhatsApp.
-• Jika Kamu Menemukan Semacam
-  Bug Atau Kesalahan Mohon
-  Dimaklumi Dulu Ya, jika error
-  segera Lapor Owner Agar Segera
-  Diperbaiki Atau DiFix.
-
-
- ANONYMOUS CHAT
- • ${prefix}anonymous
- • ${prefix}start
- • ${prefix}next
- • ${prefix}keluar
- • ${prefix}menfes
- • ${prefix}confes
- • ${prefix}menfesconfirm
-
- ANIME
- • ${prefix}hololive
- • ${prefix}couples
- • ${prefix}couple
- • ${prefix}waifu
- • ${prefix}husbu
- • ${prefix}neko
- • ${prefix}uniform
- • ${prefix}cosplay
- • ${prefix}maid
- • ${prefix}oppai
- • ${prefix}selfies
- • ${prefix}shinobu
- • ${prefix}akira
- • ${prefix}akiyama
- • ${prefix}ana
- • ${prefix}asuna
- • ${prefix}ayuzawa
- • ${prefix}boruto
- • ${prefix}chitoge
- • ${prefix}deidara
- • ${prefix}doraemon
- • ${prefix}elaina
- • ${prefix}emilia
- • ${prefix}erza
- • ${prefix}gremory
- • ${prefix}hestia
- • ${prefix}hinata
- • ${prefix}inori
- • ${prefix}isuzu
- • ${prefix}itachi
- • ${prefix}itori
- • ${prefix}kaga
- • ${prefix}kagura
- • ${prefix}kakasih
- • ${prefix}kaori
- • ${prefix}keneki
- • ${prefix}kotori
- • ${prefix}kurumi
- • ${prefix}loli
- • ${prefix}madara
- • ${prefix}mikasa
- • ${prefix}miku
- • ${prefix}minato
- • ${prefix}naruto
- • ${prefix}nezuko
- • ${prefix}onepiece
- • ${prefix}pokemon
- • ${prefix}rize
- • ${prefix}sagiri
- • ${prefix}sakura
- • ${prefix}shinka
- • ${prefix}shizuka
- • ${prefix}shouta
- • ${prefix}toukachan
- • ${prefix}tsunade
- • ${prefix}yuki
- • ${prefix}raiden
- • ${prefix}calliope
- • ${prefix}kitagawa
-
- ASUPAN 
- • ${prefix}cecan
- • ${prefix}cogan
- • ${prefix}china
- • ${prefix}japan
- • ${prefix}korea
- • ${prefix}indonesia
- • ${prefix}malaysia
- • ${prefix}thailand
- • ${prefix}vietnam
- • ${prefix}blankpink
- • ${prefix}justina
- • ${prefix}kpop
- • ${prefix}rose
- • ${prefix}ryujin
-
- CONVERT 
- • ${prefix}nulis
- • ${prefix}removebg [image]
- • ${prefix}toimage [reply sticker]
- • ${prefix}tovideo [reply sticker]
- • ${prefix}togif [reply sticker]
- • ${prefix}tourl [image / video]
- • ${prefix}tovn [reply video]
- • ${prefix}tomp3 [reply video]
- • ${prefix}toaudio [reply video]
-
- DOWNLOADER 
- • ${prefix}tiktoknowm [url]
- • ${prefix}tiktokwm [url]
- • ${prefix}tiktokmp3 [url]
- • ${prefix}instagram [url]
- • ${prefix}instastory [url]
- • ${prefix}twitter [url]
- • ${prefix}twittermp3 [url]
- • ${prefix}facebook [url]
- • ${prefix}zippyshare [url]
- • ${prefix}mediafire [url]
- • ${prefix}ytmp3 [url]
- • ${prefix}ytmp4 [url]
- • ${prefix}getmusic [query]
- • ${prefix}getvideo [query]
- • ${prefix}umma [url]
- • ${prefix}joox [query]
- • ${prefix}soundcloud [url]
-
- DATABASE 
- • ${prefix}setcmd [reply sticker/pesan]
- • ${prefix}listcmd
- • ${prefix}delcmd [reply sticker/pesan]
- • ${prefix}lockcmd
- • ${prefix}addmsg
- • ${prefix}listmsg
- • ${prefix}getmsg
- • ${prefix}delmsg
- 
- EPHOTO 
- • ${prefix}logo2
- • ${prefix}logo3
- • ${prefix}logo4
- • ${prefix}logogaming
- • ${prefix}logogirl
- • ${prefix}logogold
- • ${prefix}spiderlogo
- • ${prefix}ffcover
- • ${prefix}crossfire
- • ${prefix}galaxy
- • ${prefix}glass
- • ${prefix}neon
- • ${prefix}beach
- • ${prefix}awan
- • ${prefix}flower
- • ${prefix}bohlam
- • ${prefix}kaligrafi
- • ${prefix}coklat
- • ${prefix}quotes
- • ${prefix}grafity
- • ${prefix}marmer
- • ${prefix}musimsemi
- • ${prefix}ruby
- • ${prefix}shadowtext
- • ${prefix}starlogo
- • ${prefix}starnight
- • ${prefix}starnight2
- • ${prefix}blackpink
- • ${prefix}cake
- • ${prefix}flashlight
- • ${prefix}puppycute
- • ${prefix}yasuologo
- • ${prefix}certificate
- • ${prefix}igcertificate
- • ${prefix}ytcertificate
-
- GROUP 
- • ${prefix}linkgroup
- • ${prefix}tagall [text]
- • ${prefix}revoke 
- • ${prefix}tagmenu [option]
- • ${prefix}ephemeral [option]
- • ${prefix}setppgrup full [image]
- • ${prefix}setname [text]
- • ${prefix}setdesc [text]
- • ${prefix}group [option]
- • ${prefix}editinfo [option]
- • ${prefix}kick @user
- • ${prefix}hidetag [text]
- • ${prefix}totag [reply]
- • ${prefix}promote @user
- • ${prefix}demote @user
- • ${prefix}mute [on/off]
- • ${prefix}antilink [on/off]
- • ${prefix}antilinkyt [on/off]
- • ${prefix}antilinktt [on/off]
- • ${prefix}vote [text]
- • ${prefix}devote
- • ${prefix}upvote
- • ${prefix}cekvote
- • ${prefix}hapusvote
-
- GAME 
- • ${prefix}delttt
- • ${prefix}tictactoe
- • ${prefix}family100
- • ${prefix}tebakmenu [option]
- • ${prefix}math [mode]
- • ${prefix}suitpvp [@tag]
-
- ISLAMIC 
- • ${prefix}iqra
- • ${prefix}hadist
- • ${prefix}alquran
- • ${prefix}juzamma
- • ${prefix}kisahnabi
- • ${prefix}tafsirsurah
- • ${prefix}jadwalsholat
- • ${prefix}niatsholat
- • ${prefix}kisahmuslim
- • ${prefix}asmaulhusna
-
- KERANG 
- • ${prefix}apakah [teks]
- • ${prefix}bisakah [teks]
- • ${prefix}bagaimanakah [teks]
- • ${prefix}rate [teks]
- • ${prefix}kapankah [teks]
- • ${prefix}cekganteng [teks]
- • ${prefix}cekcantik [teks]
- • ${prefix}ceksange [teks]
- • ${prefix}cekgay [teks]
- • ${prefix}ceklesbi [teks]
- • ${prefix}cekmati [teks]
- • ${prefix}wangy [teks]
- • ${prefix}halah [teks]
- • ${prefix}hilih [teks]
- • ${prefix}huluh [teks]
- • ${prefix}heleh [teks]
- • ${prefix}holoh [teks]
- • ${prefix}jadian [teks]
- • ${prefix}jodohku [teks]
-
- MEME 
- • ${prefix}animememe
- • ${prefix}anjing
- • ${prefix}meme
- • ${prefix}memeindo
- • ${prefix}darkjoke
- • ${prefix}darkjokes
- • ${prefix}onecak
-
- MAIN 
- • ${prefix}ping
- • ${prefix}owner
- • ${prefix}donasi
- • ${prefix}delete
- • ${prefix}infochat
- • ${prefix}quoted
- • ${prefix}listpc
- • ${prefix}listgc
- • ${prefix}listonline
- • ${prefix}speedtest
-
- OWNER 
- • ${prefix}setnamabot
- • ${prefix}setbiobot
- • ${prefix}react [emoji]
- • ${prefix}shutdown
- • ${prefix}autosw
- • ${prefix}myip
- • ${prefix}setexif
- • ${prefix}chat [option]
- • ${prefix}join [link]
- • ${prefix}leave
- • ${prefix}block @user
- • ${prefix}unblock @user
- • ${prefix}bcgroup [text]
- • ${prefix}bcall [text]
- • ${prefix}setppbot full [image]
- • ${prefix}setmenu [option]
- • ${prefix}setstatus
- • ${prefix}setnamebot
- • ${prefix}o-tagall
- • ${prefix}o-hidetag
- • ${prefix}o-add
- • ${prefix}o-kick
-
- PRIMBON 
- • ${prefix}nomorhoki
- • ${prefix}artimimpi
- • ${prefix}artinama
- • ${prefix}ramaljodoh
- • ${prefix}ramaljodohbali
- • ${prefix}suamiistri
- • ${prefix}ramalcinta
- • ${prefix}cocoknama
- • ${prefix}pasangan
- • ${prefix}jadiannikah
- • ${prefix}sifatusaha
- • ${prefix}rezeki
- • ${prefix}pekerjaan
- • ${prefix}nasib
- • ${prefix}penyakit
- • ${prefix}tarot
- • ${prefix}fengshui
- • ${prefix}haribaik
- • ${prefix}harisangar
- • ${prefix}harisial
- • ${prefix}nagahari
- • ${prefix}arahrezeki
- • ${prefix}peruntungan
- • ${prefix}weton
- • ${prefix}karakter
- • ${prefix}keberuntungan
- • ${prefix}memancing
- • ${prefix}masasubur
- • ${prefix}zodiak
- • ${prefix}shio
-
- PHOTO EDITOR 
- • ${prefix}gay
- • ${prefix}contrast
- • ${prefix}pixelate
- • ${prefix}dither
- • ${prefix}sepia
- • ${prefix}brighten
- • ${prefix}greyscale
- • ${prefix}circle
- • ${prefix}blur
- • ${prefix}invert
- • ${prefix}scale
- • ${prefix}upscale
- • ${prefix}glass
- • ${prefix}wasted
- • ${prefix}passed
- • ${prefix}comrade
- • ${prefix}jail
- • ${prefix}triggered
-
- QUOTES 
- • ${prefix}quotesanime
- • ${prefix}animequotes
- • ${prefix}motivasi
- • ${prefix}dilanquote
- • ${prefix}bucinquote
- • ${prefix}katasenja
- • ${prefix}randomquote
- • ${prefix}muslimquote
- • ${prefix}galauquote
- • ${prefix}kanyequote
- • ${prefix}trumpquote
- • ${prefix}trumpthink
- • ${prefix}creepyfact
- • ${prefix}faktaunik
- • ${prefix}puisi
- • ${prefix}pantun
- • ${prefix}cerpen
-
- RANDOM 
- • ${prefix}simih [teks]
- • ${prefix}apikey
- • ${prefix}coffe
- • ${prefix}ebinary [teks]
- • ${prefix}dbinary [teks]
- • ${prefix}styletext [teks]
-
- STICKER 
- • ${prefix}sticker
- • ${prefix}stickerwm
- • ${prefix}attp [teks]
- • ${prefix}ttp [teks]
- • ${prefix}mukalu
- • ${prefix}paimon
- • ${prefix}amongus
- • ${prefix}dadu
- • ${prefix}gura
- • ${prefix}doge
- • ${prefix}bucinstick
- • ${prefix}patrick
- • ${prefix}emojimix [emoji+emoji]
- • ${prefix}emojimix2 [emoji]
-
- SEARCH 
- • ${prefix}play [query]
- • ${prefix}yts [query]
- • ${prefix}google [query]
- • ${prefix}gimage [query]
- • ${prefix}pinterest [query]
- • ${prefix}wallpaper [query]
- • ${prefix}wikimedia [query]
- • ${prefix}ytsearch [query]
- • ${prefix}ringtone [query]
-
- STALK 
- • ${prefix}cekapi
- • ${prefix}githubstalk [username]
- • ${prefix}stalk [option] [query]
-
- TEXT PRO 
- • ${prefix}3dchristmas
- • ${prefix}3ddeepsea
- • ${prefix}americanflag
- • ${prefix}3dscifi
- • ${prefix}3drainbow
- • ${prefix}3dwaterpipe
- • ${prefix}halloweenskeleton
- • ${prefix}sketch
- • ${prefix}bluecircuit
- • ${prefix}space
- • ${prefix}metallic
- • ${prefix}fiction
- • ${prefix}greenhorror
- • ${prefix}transformer
- • ${prefix}berry
- • ${prefix}thunder
- • ${prefix}magma
- • ${prefix}3dcrackedstone
- • ${prefix}3dneonlight
- • ${prefix}impressiveglitch
- • ${prefix}naturalleaves
- • ${prefix}fireworksparkle
- • ${prefix}matrix
- • ${prefix}dropwater
- • ${prefix}harrypotter
- • ${prefix}foggywindow
- • ${prefix}neondevils
- • ${prefix}christmasholiday
- • ${prefix}3dgradient
- • ${prefix}blackpink
- • ${prefix}gluetext
-
- VOICE CHANGER 
- • ${prefix}bass
- • ${prefix}blown
- • ${prefix}deep
- • ${prefix}earrape
- • ${prefix}fast
- • ${prefix}fat
- • ${prefix}nightcore
- • ${prefix}reverse
- • ${prefix}robot
- • ${prefix}slow
- • ${prefix}tupai
-
- WEBZONE 
- • ${prefix}jadwaltv
- • ${prefix}playstore
- • ${prefix}gsmarena
- • ${prefix}jadwalbioskop
- • ${prefix}nowplayingbioskop
- • ${prefix}aminio
- • ${prefix}wattpad
- • ${prefix}webtoons
- • ${prefix}drakor
-
- WALLPAPER 
- • ${prefix}cyberspace
- • ${prefix}mountain
- • ${prefix}programming
- • ${prefix}technology
- • ${prefix}aesthetic
- • ${prefix}boneka
- • ${prefix}hekel
- • ${prefix}kucing
- • ${prefix}mobil
- • ${prefix}motor
- • ${prefix}pubg
- • ${prefix}wallhp`
-                let buttons = [{ buttonId: 'owner', buttonText: { displayText: 'Owner 👤' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: 'Rules Bot 📌' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: 'Donasi 👑' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, floc)
             }
             break
             default:
