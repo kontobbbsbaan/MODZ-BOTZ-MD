@@ -1100,60 +1100,8 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                 m.reply(`Sama-Sama Kak ${pushname}`)
                 }
                 break
-                //Case Cek Prefix
-            case 'cekpref':
-            case 'cekprefix': {
-                m.reply('Bot Ini Menggunakan Multi Prefix Dan No Prefix')
-                }
-                break
-                //Balas Cepat
-            case 'p': {
-                m.reply(`bantu subscribe https://youtube.com/channel/UC5mUj5o2S4zwwGNbPA2J31Q`)
-                }
-                case 'sewa': {
-                m.reply(`5k/10Hari Minat Chat`)
-                }
-                break
-                case '🗿': {
-                m.reply(`bantu subscribe https://youtube.com/channel/UC5mUj5o2S4zwwGNbPA2J31Q`)
-                }
-                break
-                case 'kick': {
-                m.reply(`Maaf Fitur ${prefix}Kick Telah Di Hapus`)
-                }
-                break
-                case 'add': {
-                m.reply(`Maaf Fitur ${prefix}add Telah Di Hapus`)
-                }
-                break
-                case 'p': {
-                m.reply(`DikaArdnt.
-GuaAbuzz.
-Kian.
-SkyzooDev.
-Sanzy YT.
-Fatih A.
-Nurutomo.
-Mhankbarbar.
-ZeeoneOfc.
-Penyedia Module.
-Penyedia Res Api's.
-All My Friends.`)
-            }
-            break
-            case 'menu': {
-                m.reply(𝗕𝗲𝗿𝗺𝗮𝗶𝗻 𝗕𝗼𝘁 𝗗𝗲𝗻𝗴𝗮𝗻 𝗕𝗶𝗷𝗮𝗸 𝗬𝗮 𝗗𝗮𝗻 𝗝𝗮𝗻𝗴𝗮𝗻 𝗦𝗽𝗮𝗺 🙏)
-                if (!isPremium && global.db.data.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
-                db.data.users[m.sender].limit -= 1 // -1 limit
-                let anu = await fetchJson(`https://raw.githubusercontent.com/Abuzzpoet/Databasee/main/Cecan/${command}.json`)
-                result = anu[Math.floor(Math.random() * anu.length)]               
-                let buttons = [                   
-                    {buttonId: `sewa`, buttonText: {displayText: 'Sewa Bot 👑'}, type: 1}
-                ]
-                let buttonMessage = {
-                    image: { url: result },
-                    caption: `
-SUPPORT ME 🙏
+                case 'menu': {
+                m.reply(`SUPPORT ME 🙏
 My Youtube: https://bit.ly/3U4rAvr
 Donasi: https://saweria.co/Kianganz
 Grub: https://bit.ly/3gRsxJn
@@ -1614,11 +1562,48 @@ ANONYMOUS CHAT
   ${prefix}mobil
   ${prefix}motor
   ${prefix}pubg
-  ${prefix}wallhp`,
-                    buttons: buttons,
-                    headerType: 4
+  ${prefix}wallhp`)
                 }
-                akame.sendMessage(m.chat, buttonMessage, { quoted: fdoc })
+                break
+                //Case Cek Prefix
+            case 'cekpref':
+            case 'cekprefix': {
+                m.reply('Bot Ini Menggunakan Multi Prefix Dan No Prefix')
+                }
+                break
+                //Balas Cepat
+            case 'p': {
+                m.reply(`bantu subscribe https://youtube.com/channel/UC5mUj5o2S4zwwGNbPA2J31Q`)
+                }
+                case 'sewa': {
+                m.reply(`5k/10Hari Minat Chat`)
+                }
+                break
+                case '🗿': {
+                m.reply(`bantu subscribe https://youtube.com/channel/UC5mUj5o2S4zwwGNbPA2J31Q`)
+                }
+                break
+                case 'kick': {
+                m.reply(`Maaf Fitur ${prefix}Kick Telah Di Hapus`)
+                }
+                break
+                case 'add': {
+                m.reply(`Maaf Fitur ${prefix}add Telah Di Hapus`)
+                }
+                break
+                case 'p': {
+                m.reply(`DikaArdnt.
+GuaAbuzz.
+Kian.
+SkyzooDev.
+Sanzy YT.
+Fatih A.
+Nurutomo.
+Mhankbarbar.
+ZeeoneOfc.
+Penyedia Module.
+Penyedia Res Api's.
+All My Friends.`)
             }
             break
             case 'sc':
