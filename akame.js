@@ -1125,8 +1125,34 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                 case 'add': {
                 m.reply(`Maaf Fitur ${prefix}add Telah Di Hapus`)
                 }
-                case 'menu': {
-                m.reply(`
+                break
+                case 'p': {
+                m.reply(`DikaArdnt.
+GuaAbuzz.
+Kian.
+SkyzooDev.
+Sanzy YT.
+Fatih A.
+Nurutomo.
+Mhankbarbar.
+ZeeoneOfc.
+Penyedia Module.
+Penyedia Res Api's.
+All My Friends.`)
+            }
+            break
+            case 'menu': {
+                m.reply(𝗕𝗲𝗿𝗺𝗮𝗶𝗻 𝗕𝗼𝘁 𝗗𝗲𝗻𝗴𝗮𝗻 𝗕𝗶𝗷𝗮𝗸 𝗬𝗮 𝗗𝗮𝗻 𝗝𝗮𝗻𝗴𝗮𝗻 𝗦𝗽𝗮𝗺 🙏)
+                if (!isPremium && global.db.data.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
+                db.data.users[m.sender].limit -= 1 // -1 limit
+                let anu = await fetchJson(`https://raw.githubusercontent.com/Abuzzpoet/Databasee/main/Cecan/${command}.json`)
+                result = anu[Math.floor(Math.random() * anu.length)]               
+                let buttons = [                   
+                    {buttonId: `sewa`, buttonText: {displayText: 'Sewa Bot 👑'}, type: 1}
+                ]
+                let buttonMessage = {
+                    image: { url: result },
+                    caption: `
 SUPPORT ME 🙏
 My Youtube: https://bit.ly/3U4rAvr
 Donasi: https://saweria.co/Kianganz
@@ -1588,22 +1614,11 @@ ANONYMOUS CHAT
   ${prefix}mobil
   ${prefix}motor
   ${prefix}pubg
-  ${prefix}wallhp`)
+  ${prefix}wallhp`,
+                    buttons: buttons,
+                    headerType: 4
                 }
-                break
-                case 'p': {
-                m.reply(`DikaArdnt.
-GuaAbuzz.
-Kian.
-SkyzooDev.
-Sanzy YT.
-Fatih A.
-Nurutomo.
-Mhankbarbar.
-ZeeoneOfc.
-Penyedia Module.
-Penyedia Res Api's.
-All My Friends.`)
+                akame.sendMessage(m.chat, buttonMessage, { quoted: fdoc })
             }
             break
             case 'sc':
