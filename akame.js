@@ -144,12 +144,10 @@ const ftroli = {
     },
     "message": {
         orderMessage: {
-            itemCount: 2022,
+            itemCount: 999999,
             status: 200,
             thumbnail: thumb,
             surface: 200,
-            message: `MODZ BOTZ`,
-            orderTitle: 'MODZ BOTZ',
             sellerJid: '0@s.whatsapp.net'
         }
     },
@@ -289,7 +287,7 @@ const fakestatus = {
         "imageMessage": {
             "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc",
             "mimetype": "image/jpeg",
-            "caption": '©Kian',
+            "caption": 'MODZ BOTZ',
             "fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=",
             "fileLength": "28777",
             "height": 1080,
@@ -328,13 +326,13 @@ const fakestatus = {
             if (chats) {
                 if (!('mute' in chats)) chats.mute = false
                 if (!('antilink' in chats)) chats.antilink = true
-                if (!('antilinkyt' in chats)) chats.antilinkyt = false
+                if (!('antilinkyt' in chats)) chats.antilinkyt = true
                 if (!('antilinktt' in chats)) chats.antilinktt = true
                 if (!('antivirtex' in chats)) chats.antivirtex = true
             } else global.db.data.chats[m.chat] = {
                 mute: false,
                 antilink: true,
-                antilinkyt: false,
+                antilinkyt: true,
                 antilinktt: true,
                 antivirtex: true,
             }
@@ -1281,6 +1279,8 @@ ANONYMOUS CHAT
   ${prefix}group [option]
   ${prefix}editinfo [option]
   ${prefix}kick @user
+  ${prefix}+ @user
+  ${prefix}- @user
   ${prefix}hidetag [text]
   ${prefix}totag [reply]
   ${prefix}promote @user
@@ -1294,6 +1294,7 @@ ANONYMOUS CHAT
   ${prefix}upvote
   ${prefix}cekvote
   ${prefix}hapusvote
+  ${prefix}intro
 
  GAME 
   ${prefix}delttt
@@ -1583,12 +1584,17 @@ ANONYMOUS CHAT
                 m.reply(`bantu subscribe https://youtube.com/channel/UC5mUj5o2S4zwwGNbPA2J31Q`)
                 }
                 break
-                case 'kick': {
-                m.reply(`Maaf Fitur ${prefix}Kick Telah Di Hapus`)
-                }
-                break
-                case 'add': {
-                m.reply(`Maaf Fitur ${prefix}add Telah Di Hapus`)
+                case 'intro': {
+                m.reply(`╭─────༺♡༻──────╮
+│𝗞𝗔𝗥𝗧𝗨 𝗜𝗡𝗧𝗥𝗢
+│𝙉𝘼𝙈𝘼:
+│𝙆𝙀𝙇𝘼𝙎:
+│𝙂𝙀𝙉𝘿𝙀𝙍:
+│𝘼𝙎𝙆𝙊𝙏
+│
+│𝗝𝗮𝗻𝗴𝗮𝗻 𝗟𝘂𝗽𝗮 𝗜𝗻𝘁𝗿𝗼 𝗬𝗮✨
+╰─────༺♡༻──────╯
+`)
                 }
                 break
                 case 'tqto': {
@@ -2345,7 +2351,8 @@ All My Friends.`)
 		await akame.groupParticipantsUpdate(m.chat, [users], 'add').then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
 		    }
 		    break
-		    case '𝙖𝙙𝙙': {
+	        case '+':
+		    case 'add': {
                 if (!m.isGroup) throw mess.group
                 if (!isAdmins && !isGroupOwner && !isCreator) throw mess.admin
                 if (!isBotAdmins) throw mess.botAdmin
@@ -2353,7 +2360,8 @@ All My Friends.`)
                 await akame.groupParticipantsUpdate(m.chat, [users], 'add').then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
 		    }
             break
-            case '𝙠𝙞𝙘𝙠': {
+            case '-':
+            case 'kick': {
                 if (!m.isGroup) throw mess.group
                 if (!isAdmins && !isGroupOwner && !isCreator) throw mess.admin
                 if (!isBotAdmins) throw mess.botAdmin
