@@ -1106,27 +1106,6 @@ My Youtube: https://bit.ly/3U4rAvr
 Donasi: https://saweria.co/Kianganz
 Grub: https://bit.ly/3gRsxJn
 
-INFO WAKTU ⏰
-Tanggal Server : ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}
-Waktu Server : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}
-WIB : ${wib}
-WITA : ${wita}
-WIT : ${wit}
-
-⍢⃝🤖 I N F O  B O T\n\n
-                 👤 Owner Name : ${global.namaowner}\n
-                 ️ Nama Bot : ${global.namabot}\n
-                 🔗 Nomor Owner : wa.me/${global.owner}\n\n
-                 ⍢⃝👾 I N F O  S T A T I S T I K\n\n
-                 🗃️ Lib : Baileys Multi Device\n
-                 🆎 Tipe : Nodejs\n
-                 📈 STATUS BOT : ONLINE\n
-                 ⚡ Speed : ${latensi.toFixed(4)} Second\n
-                 ⏰ Runtime : ${runtime(process.uptime())}\n
-                 💻 RAM Server : ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}\n\n
-                 ⍢⃝🤝 C O N N E C T  W I T H  M E\n\n
-                 🎗️ WhatsApp : wa.me/${global.owner}\n
-
 ANONYMOUS CHAT
   ${prefix}anonymous
   ${prefix}start
