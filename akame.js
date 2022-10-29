@@ -328,13 +328,13 @@ const fakestatus = {
             if (chats) {
                 if (!('mute' in chats)) chats.mute = false
                 if (!('antilink' in chats)) chats.antilink = true
-                if (!('antilinkyt' in chats)) chats.antilinkyt = true
+                if (!('antilinkyt' in chats)) chats.antilinkyt = false
                 if (!('antilinktt' in chats)) chats.antilinktt = true
                 if (!('antivirtex' in chats)) chats.antivirtex = true
             } else global.db.data.chats[m.chat] = {
                 mute: false,
                 antilink: true,
-                antilinkyt: true,
+                antilinkyt: false,
                 antilinktt: true,
                 antivirtex: true,
             }
