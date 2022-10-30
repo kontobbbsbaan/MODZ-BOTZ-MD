@@ -115,7 +115,7 @@ async function startakame() {
 		akame.ev.on("groups.update", async (json) => {
 			console.log(json)
 			const res = json[0];
-			if (res.announce == true) {
+			if (res.announce == false) {
 				await sleep(2000)
 				akame.sendMessage(res.id, {
 					text: `「 Group Settings Change 」\n\nGroup telah ditutup oleh admin, Sekarang hanya admin yang dapat mengirim pesan !`,
@@ -125,7 +125,7 @@ async function startakame() {
 				akame.sendMessage(res.id, {
 					text: `「 Group Settings Change 」\n\nGroup telah dibuka oleh admin, Sekarang peserta dapat mengirim pesan !`,
 				});
-			} else if (res.restrict == true) {
+			} else if (res.restrict == false) {
 				await sleep(2000)
 				akame.sendMessage(res.id, {
 					text: `「 Group Settings Change 」\n\nInfo group telah dibatasi, Sekarang hanya admin yang dapat mengedit info group !`,
@@ -169,13 +169,13 @@ async function startakame() {
                     ppgroup = 'https://tinyurl.com/yx93l6da'
                 }
 
-                if (anu.action == 'add') {
+                if (anu.action == 'add/') {
                     akame.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `Welcome @${num.split("@")[0]} To Group ${metadata.subject} 👋` })
-                } else if (anu.action == 'remove') {
+                } else if (anu.action == 'remove/') {
                     akame.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `Sayonaraa @${num.split("@")[0]} 👋` })
-                } else if (anu.action == 'promote') {
+                } else if (anu.action == 'promote/') {
                     akame.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `Selamat Ya @${num.split("@")[0]} Atas Kenaikan Jabatannya Di Grup ${metadata.subject} 🎉` })
-                } else if (anu.action == 'demote') {
+                } else if (anu.action == 'demote/') {
                     akame.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `Nice Try @${num.split("@")[0]} Atas Penurunan Jabatannya Di Grup ${metadata.subject} 😔` })
               }
             }
