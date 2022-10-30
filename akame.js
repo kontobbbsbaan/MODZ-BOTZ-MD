@@ -1099,470 +1099,497 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                 }
                 break
                 case 'menu': {
-                m.reply(`SUPPORT ME 🙏
-My Youtube: https://bit.ly/3U4rAvr
-Donasi: https://saweria.co/Kianganz
-Grub: https://bit.ly/3gRsxJn
+                m.reply(`
+╭My Youtube: https://bit.ly/3U4rAvr
+│Donasi: https://saweria.co/Kianganz
+╰Grub: https://bit.ly/3gRsxJn
 
-ANONYMOUS CHAT
-  ${prefix}anonymous
-  ${prefix}start
-  ${prefix}next
-  ${prefix}keluar
-  ${prefix}menfes
-  ${prefix}confes
-  ${prefix}menfesconfirm
 
- ANIME
-  ${prefix}hololive
-  ${prefix}couples
-  ${prefix}couple
-  ${prefix}waifu
-  ${prefix}husbu
-  ${prefix}neko
-  ${prefix}uniform
-  ${prefix}cosplay
-  ${prefix}maid
-  ${prefix}oppai
-  ${prefix}selfies
-  ${prefix}shinobu
-  ${prefix}akira
-  ${prefix}akiyama
-  ${prefix}ana
-  ${prefix}asuna
-  ${prefix}ayuzawa
-  ${prefix}boruto
-  ${prefix}chitoge
-  ${prefix}deidara
-  ${prefix}doraemon
-  ${prefix}elaina
-  ${prefix}emilia
-  ${prefix}erza
-  ${prefix}gremory
-  ${prefix}hestia
-  ${prefix}hinata
-  ${prefix}inori
-  ${prefix}isuzu
-  ${prefix}itachi
-  ${prefix}itori
-  ${prefix}kaga
-  ${prefix}kagura
-  ${prefix}kakasih
-  ${prefix}kaori
-  ${prefix}keneki
-  ${prefix}kotori
-  ${prefix}kurumi
-  ${prefix}loli
-  ${prefix}madara
-  ${prefix}mikasa
-  ${prefix}miku
-  ${prefix}minato
-  ${prefix}naruto
-  ${prefix}nezuko
-  ${prefix}onepiece
-  ${prefix}pokemon
-  ${prefix}rize
-  ${prefix}sagiri
-  ${prefix}sakura
-  ${prefix}shinka
-  ${prefix}shizuka
-  ${prefix}shouta
-  ${prefix}toukachan
-  ${prefix}tsunade
-  ${prefix}yuki
-  ${prefix}raiden
-  ${prefix}calliope
-  ${prefix}kitagawa
 
- ASUPAN 
-  ${prefix}cecan
-  ${prefix}cogan
-  ${prefix}china
-  ${prefix}japan
-  ${prefix}korea
-  ${prefix}indonesia
-  ${prefix}malaysia
-  ${prefix}thailand
-  ${prefix}vietnam
-  ${prefix}blankpink
-  ${prefix}justina
-  ${prefix}kpop
-  ${prefix}rose
-  ${prefix}ryujin
+  ╭⌑  ANONYMOUS CHAT
+  │${prefix}anonymous
+  │${prefix}start
+  │${prefix}next
+  │${prefix}keluar
+  │${prefix}menfes
+  │${prefix}confes
+  │${prefix}menfesconfirm
+  ╰──────ও
 
- CONVERT 
-  ${prefix}nulis
-  ${prefix}removebg [image]
-  ${prefix}toimage [reply sticker]
-  ${prefix}tovideo [reply sticker]
-  ${prefix}togif [reply sticker]
-  ${prefix}tourl [image / video]
-  ${prefix}tovn [reply video]
-  ${prefix}tomp3 [reply video]
-  ${prefix}toaudio [reply video]
+  ╭⌑  ANIME
+  │${prefix}couples
+  │${prefix}couple
+  │${prefix}waifu
+  │${prefix}husbu
+  │${prefix}neko
+  │${prefix}uniform
+  │${prefix}cosplay
+  │${prefix}maid
+  │${prefix}oppai
+  │${prefix}selfies
+  │${prefix}shinobu
+  │${prefix}akira
+  │${prefix}akiyama
+  │${prefix}ana
+  │${prefix}asuna
+  │${prefix}ayuzawa
+  │${prefix}boruto
+  │${prefix}chitoge
+  │${prefix}deidara
+  │${prefix}doraemon
+  │${prefix}elaina
+  │${prefix}emilia
+  │${prefix}erza
+  │${prefix}gremory
+  │${prefix}hestia
+  │${prefix}hinata
+  │${prefix}inori
+  │${prefix}isuzu
+  │${prefix}itachi
+  │${prefix}itori
+  │${prefix}kaga
+  │${prefix}kagura
+  │${prefix}kakasih
+  │${prefix}kaori
+  │${prefix}keneki
+  │${prefix}kotori
+  │${prefix}kurumi
+  │${prefix}loli
+  │${prefix}madara
+  │${prefix}mikasa
+  │${prefix}miku
+  │${prefix}minato
+  │${prefix}naruto
+  │${prefix}nezuko
+  │${prefix}onepiece
+  │${prefix}pokemon
+  │${prefix}rize
+  │${prefix}sagiri
+  │${prefix}sakura
+  │${prefix}shinka
+  │${prefix}shizuka
+  │${prefix}shouta
+  │${prefix}toukachan
+  │${prefix}tsunade
+  │${prefix}yuki
+  │${prefix}raiden
+  │${prefix}calliope
+  │${prefix}kitagawa
+  ╰──────ও
 
- DOWNLOADER 
-  ${prefix}tiktoknowm [url]
-  ${prefix}tiktokwm [url]
-  ${prefix}tiktokmp3 [url]
-  ${prefix}instagram [url]
-  ${prefix}instastory [url]
-  ${prefix}twitter [url]
-  ${prefix}twittermp3 [url]
-  ${prefix}facebook [url]
-  ${prefix}zippyshare [url]
-  ${prefix}mediafire [url]
-  ${prefix}ytmp3 [url]
-  ${prefix}ytmp4 [url]
-  ${prefix}getmusic [query]
-  ${prefix}getvideo [query]
-  ${prefix}umma [url]
-  ${prefix}joox [query]
-  ${prefix}soundcloud [url]
+  ╭⌑  ASUPAN 
+  │${prefix}cecan
+  │${prefix}cogan
+  │${prefix}china
+  │${prefix}japan
+  │${prefix}korea
+  │${prefix}indonesia
+  │${prefix}malaysia
+  │${prefix}thailand
+  │${prefix}vietnam
+  │${prefix}blankpink
+  │${prefix}justina
+  │${prefix}kpop
+  │${prefix}rose
+  │${prefix}ryujin
+  ╰──────ও
 
- DATABASE 
-  ${prefix}setcmd [reply sticker/pesan]
-  ${prefix}listcmd
-  ${prefix}delcmd [reply sticker/pesan]
-  ${prefix}lockcmd
-  ${prefix}addmsg
-  ${prefix}listmsg
-  ${prefix}getmsg
-  ${prefix}delmsg
+  ╭⌑  CONVERT 
+  │${prefix}nulis
+  │${prefix}removebg [image]
+  │${prefix}toimage [reply sticker]
+  │${prefix}tovideo [reply sticker]
+  │${prefix}togif [reply sticker]
+  │${prefix}tourl [image / video]
+  │${prefix}tovn [reply video]
+  │${prefix}tomp3 [reply video]
+  │${prefix}toaudio [reply video]
+  ╰──────ও
+
+  ╭⌑  DOWNLOADER 
+  │${prefix}tiktoknowm [url]
+  │${prefix}tiktokwm [url]
+  │${prefix}tiktokmp3 [url]
+  │${prefix}instagram [url]
+  │${prefix}instastory [url]
+  │${prefix}twitter [url]
+  │${prefix}twittermp3 [url]
+  │${prefix}facebook [url]
+  │${prefix}zippyshare [url]
+  │${prefix}mediafire [url]
+  │${prefix}ytmp3 [url]
+  │${prefix}ytmp4 [url]
+  │${prefix}getmusic [query]
+  │${prefix}getvideo [query]
+  │${prefix}umma [url]
+  │${prefix}joox [query]
+  │${prefix}soundcloud [url]
+  ╰──────ও
+
+  ╭⌑  DATABASE 
+  │${prefix}setcmd
+  │${prefix}listcmd
+  │${prefix}delcmd
+  │${prefix}lockcmd
+  │${prefix}addmsg
+  │${prefix}listmsg
+  │${prefix}getmsg
+  │${prefix}delmsg
+  ╰──────ও
  
- EPHOTO 
-  ${prefix}logo2
-  ${prefix}logo3
-  ${prefix}logo4
-  ${prefix}logogaming
-  ${prefix}logogirl
-  ${prefix}logogold
-  ${prefix}spiderlogo
-  ${prefix}ffcover
-  ${prefix}crossfire
-  ${prefix}galaxy
-  ${prefix}glass
-  ${prefix}neon
-  ${prefix}beach
-  ${prefix}awan
-  ${prefix}flower
-  ${prefix}bohlam
-  ${prefix}kaligrafi
-  ${prefix}coklat
-  ${prefix}quotes
-  ${prefix}grafity
-  ${prefix}marmer
-  ${prefix}musimsemi
-  ${prefix}ruby
-  ${prefix}shadowtext
-  ${prefix}starlogo
-  ${prefix}starnight
-  ${prefix}starnight2
-  ${prefix}blackpink
-  ${prefix}cake
-  ${prefix}flashlight
-  ${prefix}puppycute
-  ${prefix}yasuologo
-  ${prefix}certificate
-  ${prefix}igcertificate
-  ${prefix}ytcertificate
+  ╭⌑  EPHOTO 
+  │${prefix}logo2
+  │${prefix}logo3
+  │${prefix}logo4
+  │${prefix}logogaming
+  │${prefix}logogirl
+  │${prefix}logogold
+  │${prefix}spiderlogo
+  │${prefix}ffcover
+  │${prefix}crossfire
+  │${prefix}galaxy
+  │${prefix}glass
+  │${prefix}neon
+  │${prefix}beach
+  │${prefix}awan
+  │${prefix}flower
+  │${prefix}bohlam
+  │${prefix}kaligrafi
+  │${prefix}coklat
+  │${prefix}quotes
+  │${prefix}grafity
+  │${prefix}marmer
+  │${prefix}musimsemi
+  │${prefix}ruby
+  │${prefix}shadowtext
+  │${prefix}starlogo
+  │${prefix}starnight
+  │${prefix}starnight2
+  │${prefix}blackpink
+  │${prefix}cake
+  │${prefix}flashlight
+  │${prefix}puppycute
+  │${prefix}yasuologo
+  │${prefix}certificate
+  │${prefix}igcertificate
+  │${prefix}ytcertificate
+  ╰──────ও
 
- GROUP 
-  ${prefix}linkgroup
-  ${prefix}tagall [text]
-  ${prefix}revoke 
-  ${prefix}tagmenu [option]
-  ${prefix}ephemeral [option]
-  ${prefix}setppgrup full [image]
-  ${prefix}setname [text]
-  ${prefix}setdesc [text]
-  ${prefix}group [option]
-  ${prefix}editinfo [option]
-  ${prefix}kick @user
-  ${prefix}+ @user
-  ${prefix}- @user
-  ${prefix}hidetag [text]
-  ${prefix}totag [reply]
-  ${prefix}promote @user
-  ${prefix}demote @user
-  ${prefix}mute [on/off]
-  ${prefix}antilink [on/off]
-  ${prefix}antilinkyt [on/off]
-  ${prefix}antilinktt [on/off]
-  ${prefix}vote [text]
-  ${prefix}devote
-  ${prefix}upvote
-  ${prefix}cekvote
-  ${prefix}hapusvote
-  ${prefix}intro
+  ╭⌑  GROUP 
+  │${prefix}linkgroup
+  │${prefix}tagall [text]
+  │${prefix}revoke 
+  │${prefix}tagmenu [option]
+  │${prefix}ephemeral [option]
+  │${prefix}setppgrup full [image]
+  │${prefix}setname [text]
+  │${prefix}setdesc [text]
+  │${prefix}group [option]
+  │${prefix}editinfo [option]
+  │${prefix}kick @user
+  │${prefix}+ @user
+  │${prefix}- @user
+  │${prefix}hidetag [text]
+  │${prefix}totag [reply]
+  │${prefix}promote @user
+  │${prefix}demote @user
+  │${prefix}mute [on/off]
+  │${prefix}antilink [on/off]
+  │${prefix}antilinkyt [on/off]
+  │${prefix}antilinktt [on/off]
+  │${prefix}vote [text]
+  │${prefix}devote
+  │${prefix}upvote
+  │${prefix}cekvote
+  │${prefix}hapusvote
+  │${prefix}intro
+  ╰──────ও
 
- GAME 
-  ${prefix}delttt
-  ${prefix}tictactoe
-  ${prefix}family100
-  ${prefix}tebakmenu [option]
-  ${prefix}math [mode]
-  ${prefix}suitpvp [@tag]
+  ╭⌑  GAME 
+  │${prefix}delttt
+  │${prefix}tictactoe
+  │${prefix}family100
+  │${prefix}tebakmenu [option]
+  │${prefix}math [mode]
+  │${prefix}suitpvp [@tag]
+  ╰──────ও
 
- ISLAMIC 
-  ${prefix}iqra
-  ${prefix}hadist
-  ${prefix}alquran
-  ${prefix}juzamma
-  ${prefix}kisahnabi
-  ${prefix}tafsirsurah
-  ${prefix}jadwalsholat
-  ${prefix}niatsholat
-  ${prefix}kisahmuslim
-  ${prefix}asmaulhusna
+  ╭⌑  ISLAMIC 
+  │${prefix}iqra
+  │${prefix}hadist
+  │${prefix}alquran
+  │${prefix}juzamma
+  │${prefix}kisahnabi
+  │${prefix}tafsirsurah
+  │${prefix}jadwalsholat
+  │${prefix}niatsholat
+  │${prefix}kisahmuslim
+  │${prefix}asmaulhusna
+  ╰──────ও
 
- KERANG 
-  ${prefix}apakah [teks]
-  ${prefix}bisakah [teks]
-  ${prefix}bagaimanakah [teks]
-  ${prefix}rate [teks]
-  ${prefix}kapankah [teks]
-  ${prefix}cekganteng [teks]
-  ${prefix}cekcantik [teks]
-  ${prefix}ceksange [teks]
-  ${prefix}cekgay [teks]
-  ${prefix}ceklesbi [teks]
-  ${prefix}cekmati [teks]
-  ${prefix}wangy [teks]
-  ${prefix}halah [teks]
-  ${prefix}hilih [teks]
-  ${prefix}huluh [teks]
-  ${prefix}heleh [teks]
-  ${prefix}holoh [teks]
-  ${prefix}jadian [teks]
-  ${prefix}jodohku [teks]
+  ╭⌑  KERANG 
+  │${prefix}apakah [teks]
+  │${prefix}bisakah [teks]
+  │${prefix}bagaimanakah [teks]
+  │${prefix}rate [teks]
+  │${prefix}kapankah [teks]
+  │${prefix}cekganteng [teks]
+  │${prefix}cekcantik [teks]
+  │${prefix}ceksange [teks]
+  │${prefix}cekgay [teks]
+  │${prefix}ceklesbi [teks]
+  │${prefix}cekmati [teks]
+  │${prefix}wangy [teks]
+  │${prefix}halah [teks]
+  │${prefix}hilih [teks]
+  │${prefix}huluh [teks]
+  │${prefix}heleh [teks]
+  │${prefix}holoh [teks]
+  │${prefix}jadian [teks]
+  │${prefix}jodohku [teks]
+  ╰──────ও
 
- MEME 
-  ${prefix}animememe
-  ${prefix}anjing
-  ${prefix}meme
-  ${prefix}memeindo
-  ${prefix}darkjoke
-  ${prefix}darkjokes
-  ${prefix}onecak
+  ╭⌑  MEME 
+  │${prefix}animememe
+  │${prefix}anjing
+  │${prefix}meme
+  │${prefix}memeindo
+  │${prefix}darkjoke
+  │${prefix}darkjokes
+  │${prefix}onecak
+  ╰──────ও
 
- MAIN 
-  ${prefix}ping
-  ${prefix}owner
-  ${prefix}donasi
-  ${prefix}delete
-  ${prefix}infochat
-  ${prefix}quoted
-  ${prefix}listpc
-  ${prefix}listgc
-  ${prefix}listonline
-  ${prefix}speedtest
+  ╭⌑  MAIN 
+  │${prefix}ping
+  │${prefix}owner
+  │${prefix}donasi
+  │${prefix}delete
+  │${prefix}infochat
+  │${prefix}quoted
+  │${prefix}listpc
+  │${prefix}listgc
+  │${prefix}listonline
+  │${prefix}speedtest
+  │${prefix}limit
+  ╰──────ও
 
- OWNER 
-  ${prefix}setnamabot
-  ${prefix}setbiobot
-  ${prefix}react [emoji]
-  ${prefix}shutdown
-  ${prefix}autosw
-  ${prefix}myip
-  ${prefix}setexif
-  ${prefix}chat [option]
-  ${prefix}join [link]
-  ${prefix}leave
-  ${prefix}block @user
-  ${prefix}unblock @user
-  ${prefix}bcgroup [text]
-  ${prefix}bcall [text]
-  ${prefix}setppbot full [image]
-  ${prefix}setmenu [option]
-  ${prefix}setstatus
-  ${prefix}setnamebot
-  ${prefix}o-tagall
-  ${prefix}o-hidetag
-  ${prefix}o-add
-  ${prefix}o-kick
+  ╭⌑  OWNER 
+  │${prefix}setnamabot
+  │${prefix}setbiobot
+  │${prefix}react [emoji]
+  │${prefix}shutdown
+  │${prefix}autosw
+  │${prefix}myip
+  │${prefix}setexif
+  │${prefix}chat [option]
+  │${prefix}join [link]
+  │${prefix}leave
+  │${prefix}block @user
+  │${prefix}unblock @user
+  │${prefix}bcgroup [text]
+  │${prefix}bcall [text]
+  │${prefix}setppbot full [image]
+  │${prefix}setmenu [option]
+  │${prefix}setstatus
+  │${prefix}setnamebot
+  │${prefix}o-tagall
+  │${prefix}o-hidetag
+  │${prefix}o-add
+  │${prefix}o-kick
+  ╰──────ও
 
- PRIMBON 
-  ${prefix}nomorhoki
-  ${prefix}artimimpi
-  ${prefix}artinama
-  ${prefix}ramaljodoh
-  ${prefix}ramaljodohbali
-  ${prefix}suamiistri
-  ${prefix}ramalcinta
-  ${prefix}cocoknama
-  ${prefix}pasangan
-  ${prefix}jadiannikah
-  ${prefix}sifatusaha
-  ${prefix}rezeki
-  ${prefix}pekerjaan
-  ${prefix}nasib
-  ${prefix}penyakit
-  ${prefix}tarot
-  ${prefix}fengshui
-  ${prefix}haribaik
-  ${prefix}harisangar
-  ${prefix}harisial
-  ${prefix}nagahari
-  ${prefix}arahrezeki
-  ${prefix}peruntungan
-  ${prefix}weton
-  ${prefix}karakter
-  ${prefix}keberuntungan
-  ${prefix}memancing
-  ${prefix}masasubur
-  ${prefix}zodiak
-  ${prefix}shio
+  ╭⌑  PRIMBON 
+  │${prefix}nomorhoki
+  │${prefix}artimimpi
+  │${prefix}artinama
+  │${prefix}ramaljodoh
+  │${prefix}ramaljodohbali
+  │${prefix}suamiistri
+  │${prefix}ramalcinta
+  │${prefix}cocoknama
+  │${prefix}pasangan
+  │${prefix}jadiannikah
+  │${prefix}sifatusaha
+  │${prefix}rezeki
+  │${prefix}pekerjaan
+  │${prefix}nasib
+  │${prefix}penyakit
+  │${prefix}tarot
+  │${prefix}fengshui
+  │${prefix}haribaik
+  │${prefix}harisangar
+  │${prefix}harisial
+  │${prefix}nagahari
+  │${prefix}arahrezeki
+  │${prefix}peruntungan
+  │${prefix}weton
+  │${prefix}karakter
+  │${prefix}keberuntungan
+  │${prefix}memancing
+  │${prefix}masasubur
+  │${prefix}zodiak
+  │${prefix}shio
+  ╰──────ও
 
- PHOTO EDITOR 
-  ${prefix}gay
-  ${prefix}contrast
-  ${prefix}pixelate
-  ${prefix}dither
-  ${prefix}sepia
-  ${prefix}brighten
-  ${prefix}greyscale
-  ${prefix}circle
-  ${prefix}blur
-  ${prefix}invert
-  ${prefix}scale
-  ${prefix}upscale
-  ${prefix}glass
-  ${prefix}wasted
-  ${prefix}passed
-  ${prefix}comrade
-  ${prefix}jail
-  ${prefix}triggered
+  ╭⌑  PHOTO EDITOR 
+  │${prefix}gay
+  │${prefix}contrast
+  │${prefix}pixelate
+  │${prefix}dither
+  │${prefix}sepia
+  │${prefix}brighten
+  │${prefix}greyscale
+  │${prefix}circle
+  │${prefix}blur
+  │${prefix}invert
+  │${prefix}scale
+  │${prefix}upscale
+  │${prefix}glass
+  │${prefix}wasted
+  │${prefix}passed
+  │${prefix}comrade
+  │${prefix}jail
+  │${prefix}triggered
+  ╰──────ও
 
- QUOTES 
-  ${prefix}quotesanime
-  ${prefix}animequotes
-  ${prefix}motivasi
-  ${prefix}dilanquote
-  ${prefix}bucinquote
-  ${prefix}katasenja
-  ${prefix}randomquote
-  ${prefix}muslimquote
-  ${prefix}galauquote
-  ${prefix}kanyequote
-  ${prefix}trumpquote
-  ${prefix}trumpthink
-  ${prefix}creepyfact
-  ${prefix}faktaunik
-  ${prefix}puisi
-  ${prefix}pantun
-  ${prefix}cerpen
+  ╭⌑  QUOTES 
+  │${prefix}quotesanime
+  │${prefix}animequotes
+  │${prefix}motivasi
+  │${prefix}dilanquote
+  │${prefix}bucinquote
+  │${prefix}katasenja
+  │${prefix}randomquote
+  │${prefix}muslimquote
+  │${prefix}galauquote
+  │${prefix}kanyequote
+  │${prefix}trumpquote
+  │${prefix}trumpthink
+  │${prefix}creepyfact
+  │${prefix}faktaunik
+  │${prefix}puisi
+  │${prefix}pantun
+  │${prefix}cerpen
+  ╰──────ও
 
- RANDOM 
-  ${prefix}simih [teks]
-  ${prefix}apikey
-  ${prefix}coffe
-  ${prefix}ebinary [teks]
-  ${prefix}dbinary [teks]
-  ${prefix}styletext [teks]
+  ╭⌑  RANDOM 
+  │${prefix}simih [teks]
+  │${prefix}apikey
+  │${prefix}coffe
+  │${prefix}ebinary [teks]
+  │${prefix}dbinary [teks]
+  │${prefix}styletext [teks]
+  ╰──────ও
 
- STICKER 
-  ${prefix}sticker
-  ${prefix}stickerwm
-  ${prefix}attp [teks]
-  ${prefix}ttp [teks]
-  ${prefix}mukalu
-  ${prefix}paimon
-  ${prefix}amongus
-  ${prefix}dadu
-  ${prefix}gura
-  ${prefix}doge
-  ${prefix}bucinstick
-  ${prefix}patrick
-  ${prefix}emojimix [emoji+emoji]
-  ${prefix}emojimix2 [emoji]
+  ╭⌑  STICKER 
+  │${prefix}sticker
+  │${prefix}stickerwm
+  │${prefix}attp [teks]
+  │${prefix}ttp [teks]
+  │${prefix}mukalu
+  │${prefix}paimon
+  │${prefix}amongus
+  │${prefix}dadu
+  │${prefix}gura
+  │${prefix}doge
+  │${prefix}bucinstick
+  │${prefix}patrick
+  │${prefix}emojimix [emoji+emoji]
+  │${prefix}emojimix2 [emoji]
+  ╰──────ও
 
- SEARCH 
-  ${prefix}play [query]
-  ${prefix}yts [query]
-  ${prefix}google [query]
-  ${prefix}gimage [query]
-  ${prefix}pinterest [query]
-  ${prefix}wallpaper [query]
-  ${prefix}wikimedia [query]
-  ${prefix}ytsearch [query]
-  ${prefix}ringtone [query]
+  ╭⌑  SEARCH 
+  │${prefix}play [query]
+  │${prefix}yts [query]
+  │${prefix}google [query]
+  │${prefix}gimage [query]
+  │${prefix}pinterest [query]
+  │${prefix}wallpaper [query]
+  │${prefix}wikimedia [query]
+  │${prefix}ytsearch [query]
+  │${prefix}ringtone [query]
+  ╰──────ও
 
- STALK 
-  ${prefix}cekapi
-  ${prefix}githubstalk [username]
-  ${prefix}stalk [option] [query]
+  ╭⌑  STALK 
+  │${prefix}cekapi
+  │${prefix}githubstalk [username]
+  │${prefix}stalk [option] [query]
+  ╰──────ও
 
- TEXT PRO 
-  ${prefix}3dchristmas
-  ${prefix}3ddeepsea
-  ${prefix}americanflag
-  ${prefix}3dscifi
-  ${prefix}3drainbow
-  ${prefix}3dwaterpipe
-  ${prefix}halloweenskeleton
-  ${prefix}sketch
-  ${prefix}bluecircuit
-  ${prefix}space
-  ${prefix}metallic
-  ${prefix}fiction
-  ${prefix}greenhorror
-  ${prefix}transformer
-  ${prefix}berry
-  ${prefix}thunder
-  ${prefix}magma
-  ${prefix}3dcrackedstone
-  ${prefix}3dneonlight
-  ${prefix}impressiveglitch
-  ${prefix}naturalleaves
-  ${prefix}fireworksparkle
-  ${prefix}matrix
-  ${prefix}dropwater
-  ${prefix}harrypotter
-  ${prefix}foggywindow
-  ${prefix}neondevils
-  ${prefix}christmasholiday
-  ${prefix}3dgradient
-  ${prefix}blackpink
-  ${prefix}gluetext
+  ╭⌑  TEXT PRO 
+  │${prefix}3dchristmas
+  │${prefix}3ddeepsea
+  │${prefix}americanflag
+  │${prefix}3dscifi
+  │${prefix}3drainbow
+  │${prefix}3dwaterpipe
+  │${prefix}halloweenskeleton
+  │${prefix}sketch
+  │${prefix}bluecircuit
+  │${prefix}space
+  │${prefix}metallic
+  │${prefix}fiction
+  │${prefix}greenhorror
+  │${prefix}transformer
+  │${prefix}berry
+  │${prefix}thunder
+  │${prefix}magma
+  │${prefix}3dcrackedstone
+  │${prefix}3dneonlight
+  │${prefix}impressiveglitch
+  │${prefix}naturalleaves
+  │${prefix}fireworksparkle
+  │${prefix}matrix
+  │${prefix}dropwater
+  │${prefix}harrypotter
+  │${prefix}foggywindow
+  │${prefix}neondevils
+  │${prefix}christmasholiday
+  │${prefix}3dgradient
+  │${prefix}blackpink
+  │${prefix}gluetext
+  ╰──────ও
 
- VOICE CHANGER 
-  ${prefix}bass
-  ${prefix}blown
-  ${prefix}deep
-  ${prefix}earrape
-  ${prefix}fast
-  ${prefix}fat
-  ${prefix}nightcore
-  ${prefix}reverse
-  ${prefix}robot
-  ${prefix}slow
-  ${prefix}tupai
+  ╭⌑  VOICE CHANGER 
+  │${prefix}bass
+  │${prefix}blown
+  │${prefix}deep
+  │${prefix}earrape
+  │${prefix}fast
+  │${prefix}fat
+  │${prefix}nightcore
+  │${prefix}reverse
+  │${prefix}robot
+  │${prefix}slow
+  │${prefix}tupai
+  ╰──────ও
 
- WEBZONE 
-  ${prefix}jadwaltv
-  ${prefix}playstore
-  ${prefix}gsmarena
-  ${prefix}jadwalbioskop
-  ${prefix}nowplayingbioskop
-  ${prefix}aminio
-  ${prefix}wattpad
-  ${prefix}webtoons
-  ${prefix}drakor
+  ╭⌑  WEBZONE 
+  │${prefix}jadwaltv
+  │${prefix}playstore
+  │${prefix}gsmarena
+  │${prefix}jadwalbioskop
+  │${prefix}nowplayingbioskop
+  │${prefix}aminio
+  │${prefix}wattpad
+  │${prefix}webtoons
+  │${prefix}drakor
+  ╰──────ও
 
- WALLPAPER 
-  ${prefix}cyberspace
-  ${prefix}mountain
-  ${prefix}programming
-  ${prefix}technology
-  ${prefix}aesthetic
-  ${prefix}boneka
-  ${prefix}hekel
-  ${prefix}kucing
-  ${prefix}mobil
-  ${prefix}motor
-  ${prefix}pubg
-  ${prefix}wallhp`)
+  ╭⌑  WALLPAPER 
+  │${prefix}cyberspace
+  │${prefix}mountain
+  │${prefix}programming
+  │${prefix}technology
+  │${prefix}aesthetic
+  │${prefix}boneka
+  │${prefix}hekel
+  │${prefix}kucing
+  │${prefix}mobil
+  │${prefix}motor
+  │${prefix}pubg
+  │${prefix}wallhp
+  ╰──────ও`)
                 }
                 break
                 //Case Cek Prefix
@@ -1572,8 +1599,8 @@ ANONYMOUS CHAT
                 }
                 break
                 //Balas Cepat
-            case 'bot': {
-                m.reply(`bantu subscribe https://youtube.com/channel/UC5mUj5o2S4zwwGNbPA2J31Q`)
+            case 'limit': {
+                m.reply(`📌Limit : ${isPremium ? '♾Infinity' : `${db.data.users[m.sender].limit}`}`)
                 }
                 break
                 case 'sewa': {
@@ -3705,8 +3732,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             case 'maid':
             case 'oppai':
             case 'selfies':
-            case 'cosplay':
-            case 'hololive': {
+            case 'cosplay': {
                 m.reply(mess.wait)
                 if (!isPremium && global.db.data.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
                 db.data.users[m.sender].limit -= 1 // -1 limit
