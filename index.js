@@ -110,35 +110,6 @@ async function startakame() {
             console.log(err)
         }
     })
-    
-		// detect group update
-		akame.ev.on("groups.update", async (json) => {
-			console.log(json)
-			const res = json[0];
-			if (res.announce == false) {
-				await sleep(2000)
-				akame.sendMessage(res.id, {
-					text: `「 Group Settings Change 」\n\nGroup telah ditutup oleh admin, Sekarang hanya admin yang dapat mengirim pesan !`,
-				});
-			} else if (res.announce == false) {
-				await sleep(2000)
-				akame.sendMessage(res.id, {
-					text: `「 Group Settings Change 」\n\nGroup telah dibuka oleh admin, Sekarang peserta dapat mengirim pesan !`,
-				});
-			} else if (res.restrict == false) {
-				await sleep(2000)
-				akame.sendMessage(res.id, {
-					text: `「 Group Settings Change 」\n\nInfo group telah dibatasi, Sekarang hanya admin yang dapat mengedit info group !`,
-				});
-			} else if (res.restrict == false) {
-				await sleep(2000)
-				akame.sendMessage(res.id, {
-					text: `「 Group Settings Change 」\n\nInfo group telah dibuka, Sekarang peserta dapat mengedit info group !`,
-				});
-			} 
-			
-		});
-
     akame.ev.on('group-participants.update', async (anu) => {
         console.log(anu)
         try {
