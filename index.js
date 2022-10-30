@@ -135,16 +135,6 @@ async function startakame() {
 				akame.sendMessage(res.id, {
 					text: `「 Group Settings Change 」\n\nInfo group telah dibuka, Sekarang peserta dapat mengedit info group !`,
 				});
-			} else if(!res.desc == ''){
-				await sleep(2000)
-				akame.sendMessage(res.id, {
-					text: `「 Group Settings Change 」\n\n*Group desk telah diganti menjadi*\n\n${res.desc}`,
-				});
-      } else {
-				await sleep(2000)
-				akame.sendMessage(res.id, {
-					text: `「 Group Settings Change 」\n\n*Group Subject telah diganti menjadi*\n\n*${res.subject}*`,
-				});
 			} 
 			
 		});
