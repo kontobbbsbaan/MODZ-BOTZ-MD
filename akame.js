@@ -1607,8 +1607,8 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                 m.reply(`5k/10Hari Minat Chat`)
                 }
                 break
-                case '🗿': {
-                m.reply(`bantu subscribe https://youtube.com/channel/UC5mUj5o2S4zwwGNbPA2J31Q`)
+                case 'p': {
+                m.reply(`Ya?`)
                 }
                 break
                 case 'intro': {
@@ -1617,7 +1617,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
 │𝙉𝘼𝙈𝘼:
 │𝙆𝙀𝙇𝘼𝙎:
 │𝙂𝙀𝙉𝘿𝙀𝙍:
-│𝘼𝙎𝙆𝙊𝙏
+│𝘼𝙎𝙆𝙊𝙏:
 │
 │𝗝𝗮𝗻𝗴𝗮𝗻 𝗟𝘂𝗽𝗮 𝗜𝗻𝘁𝗿𝗼 𝗬𝗮✨
 ╰─────༺♡༻──────╯
@@ -4177,8 +4177,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             case 'trumpthink':
             case 'creepyfact':
             case 'faktaunik':
-            case 'puisi':
-            case 'pantun': {
+            case 'puisi': {
                 m.reply(mess.wait)
                 if (!isPremium && global.db.data.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
                 db.data.users[m.sender].limit -= 1 // -1 limit
