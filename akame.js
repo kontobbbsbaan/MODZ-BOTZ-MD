@@ -326,14 +326,14 @@ const fakestatus = {
             if (chats) {
                 if (!('mute' in chats)) chats.mute = false
                 if (!('antilink' in chats)) chats.antilink = true
-                if (!('antilinkyt' in chats)) chats.antilinkyt = false
-                if (!('antilinktt' in chats)) chats.antilinktt = false
+                if (!('antilinkyt' in chats)) chats.antilinkyt = true
+                if (!('antilinktt' in chats)) chats.antilinktt = true
                 if (!('antivirtex' in chats)) chats.antivirtex = true
             } else global.db.data.chats[m.chat] = {
                 mute: false,
                 antilink: true,
-                antilinkyt: false,
-                antilinktt: false,
+                antilinkyt: true,
+                antilinktt: true,
                 antivirtex: true,
             }
 
@@ -2319,6 +2319,7 @@ All My Friends.`)
              }
              break
             case 'join': {
+                if (m.isGroup) return m.reply('Fitur Tidak Dapat Digunakan Untuk Group!')
                 if (!text) throw 'Masukkan Link Group!'
                 if (!isUrl(args[0]) && !args[0].includes('whatsapp.com')) throw 'Link Invalid!'
                 m.reply(mess.wait)
@@ -2378,8 +2379,7 @@ All My Friends.`)
 		await akame.groupParticipantsUpdate(m.chat, [users], 'add').then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
 		    }
 		    break
-	        case '+':
-		    case 'add': {
+	        case '+': case 'add': {
                 if (!m.isGroup) throw mess.group
                 if (!isAdmins && !isGroupOwner && !isCreator) throw mess.admin
                 if (!isBotAdmins) throw mess.botAdmin
@@ -2387,8 +2387,7 @@ All My Friends.`)
                 await akame.groupParticipantsUpdate(m.chat, [users], 'add').then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
 		    }
             break
-            case '-':
-            case 'kick': {
+            case '-': case 'kick': {
                 if (!m.isGroup) throw mess.group
                 if (!isAdmins && !isGroupOwner && !isCreator) throw mess.admin
                 if (!isBotAdmins) throw mess.botAdmin
@@ -2403,15 +2402,6 @@ All My Friends.`)
          if (!isAdmins) throw vnAdmin(from)
 		let users = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '')+'@s.whatsapp.net'
 		await akame.groupParticipantsUpdate(m.chat, [users], 'remove').then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
-            }
-            break
-            case 'culik': {
-                if (args.length < 1) return m.reply('_*Masukin id grupnya tolol*_')
-                let pantek = []
-                for (let i of groupMembers) {
-                    pantek.push(i.jid)
-                }
-                akame.groupParticipantsUpdate(args[0], pantek)
             }
             break
             case 'promote': {
@@ -2490,7 +2480,7 @@ let teks = `*👥 Tag All By Bot*
                 })
             }
             break
-            case 'o-hidetag': {
+            case 'o-hidetag': case 'h': {
                 if (!isCreator) return
             if (!m.isGroup) throw mess.group
             akame.sendMessage(m.chat, { text : q ? q : '' , mentions: participants.map(a => a.id)}, { quoted: m })
@@ -2742,7 +2732,6 @@ let teks = `*👥 Tag All By Bot*
 
                 let buttonMessageVote = {
                     text: teks_vote,
-                    footer: akame.user.name,
                     buttons: buttonsVote,
                     headerType: 1
                 }
@@ -2799,7 +2788,6 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
 
                 let buttonMessageUpvote = {
                     text: teks_vote,
-                    footer: akame.user.name,
                     buttons: buttonsUpvote,
                     headerType: 1,
                     mentions: menvote
@@ -2857,7 +2845,6 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
 
                 let buttonMessageDevote = {
                     text: teks_vote,
-                    footer: akame.user.name,
                     buttons: buttonsDevote,
                     headerType: 1,
                     mentions: menvote
@@ -3539,7 +3526,6 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                             url: images
                         },
                         caption: `*------- GIMAGE SEARCH -------*\n🤠 *Query* : ${text}\n🔗 *Media Url* : ${images}`,
-                        footer: akame.user.name,
                         buttons: buttons,
                         headerType: 4
                     }
@@ -3588,7 +3574,6 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
 💻 Channel : ${anu.author.url}
 💬 Description : ${anu.description}
 🔗 Url : ${anu.url}`,
-                    footer: akame.user.name,
                     buttons: buttons,
                     headerType: 4
                 }
@@ -3713,7 +3698,6 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                 let buttonMessage = {
                     image: { url: result },
                     caption: `*Klik Next Untuk Melanjutkan*`,
-                    footer: akame.user.name,
                     buttons: buttons,
                     headerType: 4
                 }
@@ -3746,7 +3730,6 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                 let buttonMessage = {
                     image: { url: api('zenz', '/randomanime/' + command, {}, 'apikey') },
                     caption: `Random Image ${command}`,
-                    footer: akame.user.name,
                     buttons: buttons,
                     headerType: 4
                 }
@@ -3769,7 +3752,6 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                 let buttonMessage = {
                     image: { url: api('zenz', '/randomanime/marin-kitagawa', {}, 'apikey') },
                     caption: `Random Image Marin Kitagawa`,
-                    footer: akame.user.name,
                     buttons: buttons,
                     headerType: 4
                 }
@@ -3792,7 +3774,6 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                 let buttonMessage = {
                     image: { url: api('zenz', '/randomanime/mori-calliope', {}, 'apikey') },
                     caption: `Random Image Mori Calliope`,
-                    footer: akame.user.name,
                     buttons: buttons,
                     headerType: 4
                 }
@@ -3815,7 +3796,6 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                 let buttonMessage = {
                     image: { url: api('zenz', '/randomanime/raiden-shogun', {}, 'apikey') },
                     caption: `Random Image Raiden Shogun`,
-                    footer: akame.user.name,
                     buttons: buttons,
                     headerType: 4
                 }
@@ -3882,7 +3862,6 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                 let buttonMessage = {
                     image: { url: result },
                     caption: `Random Anime ${command}`,
-                    footer: akame.user.name,
                     buttons: buttons,
                     headerType: 4
                 }
@@ -3916,7 +3895,6 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                 let buttonMessage = {
                     image: { url: result },
                     caption: `Random Image ${command}`,
-                    footer: akame.user.name,
                     buttons: buttons,
                     headerType: 4
                 }
@@ -3939,7 +3917,6 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                 let buttonMessage = {
                     image: { url: result },
                     caption: `Random Wallpaper ${command}`,
-                    footer: akame.user.name,
                     buttons: buttons,
                     headerType: 4
                 }
@@ -3964,7 +3941,6 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                 let buttonMessage = {
                     image: { url: api('zenz', '/randomimage/' + command, {}, 'apikey') },
                     caption: `Random Image ${command}`,
-                    footer: akame.user.name,
                     buttons: buttons,
                     headerType: 4
                 }
@@ -3994,7 +3970,6 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                 let buttonMessage = {
                     image: { url: result },
                     caption: `Random Asupan ${command}`,
-                    footer: akame.user.name,
                     buttons: buttons,
                     headerType: 4
                 }
@@ -4042,7 +4017,6 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                         url: 'https://coffee.alexflipnote.dev/random'
                     },
                     caption: `☕ Random Coffe`,
-                    footer: akame.user.name,
                     buttons: buttons,
                     headerType: 4
                 }
@@ -4073,7 +4047,6 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                         url: result.image[0]
                     },
                     caption: `⭔ Title : ${result.title}\n⭔ Category : ${result.type}\n⭔ Detail : ${result.source}\n⭔ Media Url : ${result.image[2] || result.image[1] || result.image[0]}`,
-                    footer: akame.user.name,
                     buttons: buttons,
                     headerType: 4
                 }
@@ -4104,7 +4077,6 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                         url: result.image
                     },
                     caption: `📄 Judul : ${result.title}\n📬 Sumber : ${result.source}\n🔗 Media Url : ${result.image}`,
-                    footer: akame.user.name,
                     buttons: buttons,
                     headerType: 4
                 }
@@ -4132,7 +4104,6 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                 }]
                 let buttonMessage = {
                     text: `~_${result.quotes}_\n\nBy '${result.karakter}', ${result.anime}\n\n- ${result.up_at}`,
-                    footer: 'Quotes By Akame',
                     buttons: buttons,
                     headerType: 2
                 }
@@ -4156,7 +4127,6 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                 }]
                 let buttonMessage = {
                     text: `~_${anu.result.quotes}_\n\nBy '${anu.result.character}', ${anu.result.anime}\n\n- ${anu.result.episode}`,
-                    footer: 'Quotes By Akame',
                     buttons: buttons,
                     headerType: 2
                 }
@@ -4676,7 +4646,6 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                         url: anu.nowm
                     },
                     caption: `👤 *Author:* ${anu.author}\n📌 *Title:* ${anu.title}\n🔗 Download From ${text}`,
-                    footer: akame.user.name,
                     headerType: 5
                 }
                 akame.sendMessage(m.chat, buttonMessage, {
@@ -4694,7 +4663,6 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                         url: anu.watermark
                     },
                     caption: `👤 *Author:* ${anu.author}\n📌 *Title:* ${anu.title}\n🔗 Download From ${text}`,
-                    footer: akame.user.name,
                     headerType: 5
                 }
                 akame.sendMessage(m.chat, buttonMessage, {
@@ -4839,7 +4807,6 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
 ⭔ Url : ${anu.media[0]}
 Untuk Download Media Silahkan Klik salah satu Button dibawah ini atau masukkan command ytmp3/ytmp4 dengan url diatas
 `,
-			footer: akame.user.name,
 			buttons,
 			headerType: 4
 		    }
@@ -5694,7 +5661,6 @@ Lihat list Pesan Dengan • ${prefix}listmsg`)
                     }]
                     const listMessage = {
                         text: 'List 25 Nabi',
-                        footer: akame.user.name,
                         buttonText: 'OPEN LIST',
                         sections
                     }
@@ -5722,7 +5688,6 @@ Lihat list Pesan Dengan • ${prefix}listmsg`)
                     }]
                     const listMessage = {
                         text: 'List Niat Sholat',
-                        footer: akame.user.name,
                         buttonText: 'OPEN LIST',
                         sections
                     }
