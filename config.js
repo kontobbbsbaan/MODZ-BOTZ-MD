@@ -19,7 +19,7 @@ global.APIs = {
 //—————「 Website Apikey 」—————//
 global.APIKeys = {
     //gausah di apa² in, Udah Free kok :)
-    'https://zenzapis.xyz': 'akame-chan>_<',
+    'https://zenzapis.xyz': '54a60c46f97d',
 }
 
 //—————「 Set Nama Bot & Own 」—————//
